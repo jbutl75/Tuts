@@ -1,0 +1,1120 @@
+﻿Log file open, 05/12/15 01:46:47
+LogInit:Display: Running engine for game: Tuts
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.11-15.46.47:977][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.11-15.46.48:015][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.11-15.46.48:031][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.11-15.46.48:043][  0]LogInit: Object subsystem initialized
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.11-15.46.48:045][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.11-15.46.48:045][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.11-15.46.48:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.11-15.46.48:052][  0]LogInit: Computer: BEATS
+[2015.05.11-15.46.48:052][  0]LogInit: User: jbutl75
+[2015.05.11-15.46.48:052][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.11-15.46.48:052][  0]LogInit: High frequency timer resolution =2.338439 MHz
+[2015.05.11-15.46.48:052][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.05.11-15.46.48:052][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.11-15.46.48:052][  0]LogMemory: Process Physical Memory: 46.01 MB used, 46.01 MB peak
+[2015.05.11-15.46.48:052][  0]LogMemory: Process Virtual Memory: 26.23 MB used, 26.24 MB peak
+[2015.05.11-15.46.48:053][  0]LogMemory: Physical Memory: 2195.11 MB used, 4043.81 MB total
+[2015.05.11-15.46.48:053][  0]LogMemory: Virtual Memory: 291.58 MB used, 134217728.00 MB total
+[2015.05.11-15.46.48:069][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.05.11-15.46.48:069][  0]LogD3D11RHI: Adapter has 1015MB of dedicated video memory, 0MB of dedicated system memory, and 2021MB of shared system memory, 1 output[s]
+[2015.05.11-15.46.48:070][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.11-15.46.48:070][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.11-15.46.48:070][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.11-15.46.48:074][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.11-15.46.48:083][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.11-15.46.48:151][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.11-15.46.48:220][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.11-15.46.48:220][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.11-15.46.48:312][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.11-15.46.51:152][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-15.46.51:836][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-15.46.51:911][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.11-15.46.51:973][  0]LogDerivedDataCache: Loaded boot cache 0.06s 36MB C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-15.46.51:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.11-15.46.51:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.11-15.46.51:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.11-15.46.52:114][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.11-15.46.52:127][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jbutl_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.11-15.46.52:499][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.11-15.46.52:499][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.11-15.46.52:981][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.11-15.46.53:070][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.11-15.46.53:988][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.11-15.46.54:254][  0]SourceControl: Info Source control is disabled
+[2015.05.11-15.46.54:254][  0]SourceControl: Info Source control is disabled
+[2015.05.11-15.46.54:254][  0]SourceControl: Info Source control is disabled
+[2015.05.11-15.46.54:254][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.11-15.46.54:254][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.11-15.46.54:264][  0]SourceControl: Info Source control is disabled
+[2015.05.11-15.46.54:482][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.11-15.46.54:482][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.11-15.46.54:577][  0]LogEngine: Initializing Engine...
+[2015.05.11-15.46.56:759][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.11-15.46.56:784][  0]LogInit: FAudioDevice initialized.
+[2015.05.11-15.46.56:828][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.11-15.46.56:857][  0]LogDerivedDataCache: Saved boot cache 0.03s 36MB C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.11-15.46.56:865][  0]LogInit: Texture streaming: Enabled
+[2015.05.11-15.46.56:977][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.11-15.46.56:977][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-15.46.56:977][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.11-15.46.56:978][  0]LogAnalytics: SetUserId 4ef35f964f4e4604a79b73919b19a5e8|4b329d41c9194136a0c76ae4052c1778|27ce72d0-b477-4cbb-abfe-63a03639d778
+[2015.05.11-15.46.56:978][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.11-15.46.57:002][  0]LogInit: Transaction tracking system initialized
+[2015.05.11-15.46.57:205][  0]BlueprintLog: New page: Editor Load
+[2015.05.11-15.46.57:244][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.05.11-15.46.57:245][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.11-15.46.58:027][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-15.46.58:663][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.11-15.46.59:003][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.11-15.46.59:003][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.11-15.46.59:061][  0]LogConsoleResponse:Display: 
+[2015.05.11-15.47.00:125][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.11-15.47.00:342][  0]SourceControl: Info Source control is disabled
+[2015.05.11-15.47.00:342][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.05.11-15.47.00:777][  0]LightingResults: New page: Lighting Build
+[2015.05.11-15.47.00:816][  0]MapCheck: New page: Map Check
+[2015.05.11-15.47.00:816][  0]LightingResults: New page: Lighting Build
+[2015.05.11-15.47.00:839][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000843B1E3060
+[2015.05.11-15.47.01:481][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.11-15.47.06:843][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-15.47.08:468][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.11-15.47.08:469][  0]Cmd: MAP CHECKDEP
+[2015.05.11-15.47.08:469][  0]MapCheck: New page: FirstPersonExampleMap - May 12, 2015, 11:47:08 AM
+[2015.05.11-15.47.08:567][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 97.492ms to complete.
+[2015.05.11-15.47.08:567][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.225
+[2015.05.11-15.47.09:027][  0]LogCollectionManager: Loaded 0 collections in 0.004884 seconds
+[2015.05.11-15.47.09:051][  0]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 1696 classes and 261 folders.
+[2015.05.11-15.47.09:130][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.05.11-15.47.09:530][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.11-15.47.09:531][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.11-15.47.09:540][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.11-15.47.09:571][  0]LogLoad: Full Startup: 22.68 seconds (BP compile: 0.67 seconds)
+[2015.05.11-15.47.09:617][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.11-15.47.10:271][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.11-15.47.10:879][  0]LogRenderer:Warning: Reallocating scene render targets to support 704x416 (Frame:6).
+[2015.05.11-15.47.12:130][  8]LogAssetRegistry: Asset discovery search completed in 14.8969 seconds
+[2015.05.11-15.47.22:248][297]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.11-15.47.39:689][670]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Partices/P_Sparks.P_Sparks Component=/Game/Tuts.Tuts:PersistentLevel.P_Sparks_2.ParticleSystemComponent0
+[2015.05.11-15.47.39:997][670]Cmd: MAP LOAD FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.05.11-15.47.39:997][670]LightingResults: New page: Lighting Build
+[2015.05.11-15.47.40:033][670]LoadErrors: New page: Loading map: Tuts.umap
+[2015.05.11-15.47.40:035][670]MapCheck: New page: Map Check
+[2015.05.11-15.47.40:035][670]LightingResults: New page: Lighting Build
+[2015.05.11-15.47.40:057][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084378B47C0
+[2015.05.11-15.47.40:277][670]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.11-15.47.40:322][670]LogAIModule: Creating AISystem for world Tuts
+[2015.05.11-15.47.40:409][670]Cmd: MAP CHECKDEP
+[2015.05.11-15.47.40:409][670]MapCheck: New page: Tuts - May 12, 2015, 11:47:40 AM
+[2015.05.11-15.47.40:529][670]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.906ms to complete.
+[2015.05.11-15.47.40:530][670]LogFileHelpers: Loading map 'Tuts' took 0.535
+[2015.05.11-15.48.55:057][295]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.11-15.57.32:139][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.11-15.57.32:711][108]LogSavePackage: Save=476.726990ms
+[2015.05.11-15.57.32:711][108]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto107E37E5448D9F7874A8C75B4EB32CB0E.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto1.umap'
+[2015.05.11-15.57.32:724][108]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.811
+[2015.05.11-15.57.32:724][108]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.811
+[2015.05.12-03.36.29:051][569]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.05.12-03.42.40:966][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor _8)
+[2015.05.12-03.42.44:593][106]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor _8)
+[2015.05.12-03.43.00:369][428]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.05.12-03.43.07:500][570]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.43.40:364][757]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Secret Service Model 1.obj)
+[2015.05.12-03.43.44:245][757]LogFbx: Loading FBX Scene from C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Secret Service Model 1.obj
+[2015.05.12-03.43.44:612][757]LogFbx: FBX Scene Loaded Succesfully
+[2015.05.12-03.43.44:809][757]LogLinker:Warning: Can't find file '/Game/Mesh_0726Mat'
+[2015.05.12-03.43.44:848][757]LogLinker:Warning: Can't find file '/Game/Mesh_0726Mat'
+[2015.05.12-03.43.44:848][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0726Mat.Mesh_0726Mat'
+[2015.05.12-03.43.45:500][757]LogMaterial: Missing cached shader map for material Mesh_0726Mat, compiling. 
+[2015.05.12-03.43.46:636][757]LogLinker:Warning: Can't find file '/Game/Mesh_0727Mat'
+[2015.05.12-03.43.46:636][757]LogLinker:Warning: Can't find file '/Game/Mesh_0727Mat'
+[2015.05.12-03.43.46:636][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0727Mat.Mesh_0727Mat'
+[2015.05.12-03.43.46:917][757]LogMaterial: Missing cached shader map for material Mesh_0727Mat, compiling. 
+[2015.05.12-03.43.47:009][757]LogLinker:Warning: Can't find file '/Game/Mesh_0741Mat'
+[2015.05.12-03.43.47:009][757]LogLinker:Warning: Can't find file '/Game/Mesh_0741Mat'
+[2015.05.12-03.43.47:009][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0741Mat.Mesh_0741Mat'
+[2015.05.12-03.43.47:114][757]LogMaterial: Missing cached shader map for material Mesh_0741Mat, compiling. 
+[2015.05.12-03.43.47:226][757]LogLinker:Warning: Can't find file '/Game/Mesh_0742Mat'
+[2015.05.12-03.43.47:226][757]LogLinker:Warning: Can't find file '/Game/Mesh_0742Mat'
+[2015.05.12-03.43.47:226][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0742Mat.Mesh_0742Mat'
+[2015.05.12-03.43.47:303][757]LogMaterial: Missing cached shader map for material Mesh_0742Mat, compiling. 
+[2015.05.12-03.43.47:497][757]LogLinker:Warning: Can't find file '/Game/Mesh_0743Mat'
+[2015.05.12-03.43.47:498][757]LogLinker:Warning: Can't find file '/Game/Mesh_0743Mat'
+[2015.05.12-03.43.47:498][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0743Mat.Mesh_0743Mat'
+[2015.05.12-03.43.47:585][757]LogMaterial: Missing cached shader map for material Mesh_0743Mat, compiling. 
+[2015.05.12-03.43.47:613][757]LogLinker:Warning: Can't find file '/Game/Mesh_0744Mat'
+[2015.05.12-03.43.47:613][757]LogLinker:Warning: Can't find file '/Game/Mesh_0744Mat'
+[2015.05.12-03.43.47:613][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0744Mat.Mesh_0744Mat'
+[2015.05.12-03.43.47:812][757]LogMaterial: Missing cached shader map for material Mesh_0744Mat, compiling. 
+[2015.05.12-03.43.47:842][757]LogLinker:Warning: Can't find file '/Game/Mesh_0745Mat'
+[2015.05.12-03.43.47:842][757]LogLinker:Warning: Can't find file '/Game/Mesh_0745Mat'
+[2015.05.12-03.43.47:842][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0745Mat.Mesh_0745Mat'
+[2015.05.12-03.43.47:925][757]LogMaterial: Missing cached shader map for material Mesh_0745Mat, compiling. 
+[2015.05.12-03.43.47:953][757]LogLinker:Warning: Can't find file '/Game/Mesh_0746Mat'
+[2015.05.12-03.43.47:953][757]LogLinker:Warning: Can't find file '/Game/Mesh_0746Mat'
+[2015.05.12-03.43.47:953][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0746Mat.Mesh_0746Mat'
+[2015.05.12-03.43.47:960][757]LogMaterial: Missing cached shader map for material Mesh_0746Mat, compiling. 
+[2015.05.12-03.43.48:009][757]LogLinker:Warning: Can't find file '/Game/Mesh_0747Mat'
+[2015.05.12-03.43.48:010][757]LogLinker:Warning: Can't find file '/Game/Mesh_0747Mat'
+[2015.05.12-03.43.48:010][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0747Mat.Mesh_0747Mat'
+[2015.05.12-03.43.48:036][757]LogMaterial: Missing cached shader map for material Mesh_0747Mat, compiling. 
+[2015.05.12-03.43.48:071][757]LogLinker:Warning: Can't find file '/Game/Mesh_0748Mat'
+[2015.05.12-03.43.48:073][757]LogLinker:Warning: Can't find file '/Game/Mesh_0748Mat'
+[2015.05.12-03.43.48:073][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0748Mat.Mesh_0748Mat'
+[2015.05.12-03.43.48:124][757]LogMaterial: Missing cached shader map for material Mesh_0748Mat, compiling. 
+[2015.05.12-03.43.48:154][757]LogLinker:Warning: Can't find file '/Game/Mesh_0818Mat'
+[2015.05.12-03.43.48:154][757]LogLinker:Warning: Can't find file '/Game/Mesh_0818Mat'
+[2015.05.12-03.43.48:155][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0818Mat.Mesh_0818Mat'
+[2015.05.12-03.43.48:177][757]LogMaterial: Missing cached shader map for material Mesh_0818Mat, compiling. 
+[2015.05.12-03.43.48:210][757]LogLinker:Warning: Can't find file '/Game/Mesh_0819Mat'
+[2015.05.12-03.43.48:210][757]LogLinker:Warning: Can't find file '/Game/Mesh_0819Mat'
+[2015.05.12-03.43.48:265][757]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Mesh_0819Mat.Mesh_0819Mat'
+[2015.05.12-03.43.48:312][757]LogMaterial: Missing cached shader map for material Mesh_0819Mat, compiling. 
+[2015.05.12-03.43.48:343][757]LogFbx: == Initial material list:
+[2015.05.12-03.43.48:343][757]LogFbx: 0: Mesh_0726Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 1: Mesh_0727Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 2: Mesh_0741Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 3: Mesh_0742Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 4: Mesh_0743Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 5: Mesh_0744Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 6: Mesh_0745Mat
+[2015.05.12-03.43.48:343][757]LogFbx: 7: Mesh_0746Mat
+[2015.05.12-03.43.48:379][757]LogFbx: 8: Mesh_0747Mat
+[2015.05.12-03.43.48:379][757]LogFbx: 9: Mesh_0748Mat
+[2015.05.12-03.43.48:379][757]LogFbx: 10: Mesh_0818Mat
+[2015.05.12-03.43.48:379][757]LogFbx: 11: Mesh_0819Mat
+[2015.05.12-03.43.48:380][757]LogFbx: == After sorting:
+[2015.05.12-03.43.48:380][757]LogFbx: 0: Mesh_0726Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 1: Mesh_0727Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 2: Mesh_0741Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 3: Mesh_0742Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 4: Mesh_0743Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 5: Mesh_0744Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 6: Mesh_0745Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 7: Mesh_0746Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 8: Mesh_0747Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 9: Mesh_0748Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 10: Mesh_0818Mat
+[2015.05.12-03.43.48:380][757]LogFbx: 11: Mesh_0819Mat
+[2015.05.12-03.43.48:380][757]LogFbx: == Mapping table:
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 0 -> 0
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 1 -> 1
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 2 -> 2
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 3 -> 3
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 4 -> 4
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 5 -> 5
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 6 -> 6
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 7 -> 7
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 8 -> 8
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 9 -> 9
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 10 -> 10
+[2015.05.12-03.43.48:380][757]LogFbx:   sort 11 -> 11
+[2015.05.12-03.43.48:624][757]LogStaticMesh: Building static mesh Secret_Service_Model_1...
+[2015.05.12-03.43.50:205][757]LogStaticMesh: Built static mesh [1666.838379ms] /Game/Secret_Service_Model_1.Secret_Service_Model_1
+[2015.05.12-03.43.51:258][757]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.43.51:258][757]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.43.53:209][758]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.964
+[2015.05.12-03.43.53:274][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Secret_Service_Model_1] ([1] browsable assets)...
+[2015.05.12-03.43.53:368][758]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Secret_Service_Model_1.Secret_Service_Model_1]
+[2015.05.12-03.43.53:368][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Secret_Service_Model_1]
+[2015.05.12-03.43.53:769][758]LogSavePackage: Save=357.867798ms
+[2015.05.12-03.43.53:770][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Secret_Service_Model_1_Auto25245CE594CDDC71371C02E8D3EC5D731.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Secret_Service_Model_1_Auto2.uasset'
+[2015.05.12-03.43.53:922][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0726Mat] ([1] browsable assets)...
+[2015.05.12-03.43.54:236][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0726Mat.Mesh_0726Mat]
+[2015.05.12-03.43.54:236][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0726Mat]
+[2015.05.12-03.43.54:239][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0726Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0726Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.54:955][758]LogSavePackage: Save=714.599792ms
+[2015.05.12-03.43.54:957][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0726Mat_Auto2E601D9C348615AE29436C48B8273365B.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0726Mat_Auto2.uasset'
+[2015.05.12-03.43.55:055][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0727Mat] ([1] browsable assets)...
+[2015.05.12-03.43.55:107][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0727Mat.Mesh_0727Mat]
+[2015.05.12-03.43.55:107][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0727Mat]
+[2015.05.12-03.43.55:110][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0727Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0727Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.55:692][758]LogSavePackage: Save=578.523560ms
+[2015.05.12-03.43.55:693][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0727Mat_Auto23E84DC9747FC017B8290739BB7DBF9D0.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0727Mat_Auto2.uasset'
+[2015.05.12-03.43.55:794][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0741Mat] ([1] browsable assets)...
+[2015.05.12-03.43.55:857][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0741Mat.Mesh_0741Mat]
+[2015.05.12-03.43.55:857][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0741Mat]
+[2015.05.12-03.43.55:859][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0741Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0741Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.56:467][758]LogSavePackage: Save=604.936890ms
+[2015.05.12-03.43.56:495][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0741Mat_Auto2D2FE96774E8DE3ABD1F285A5C3289A05.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0741Mat_Auto2.uasset'
+[2015.05.12-03.43.56:546][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0742Mat] ([1] browsable assets)...
+[2015.05.12-03.43.56:589][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0742Mat.Mesh_0742Mat]
+[2015.05.12-03.43.56:589][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0742Mat]
+[2015.05.12-03.43.56:591][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0742Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0742Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.57:199][758]LogSavePackage: Save=605.459045ms
+[2015.05.12-03.43.57:225][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0742Mat_Auto2C675FCE9422BFF0E0715169A976A2CB9.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0742Mat_Auto2.uasset'
+[2015.05.12-03.43.57:295][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0743Mat] ([1] browsable assets)...
+[2015.05.12-03.43.57:336][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0743Mat.Mesh_0743Mat]
+[2015.05.12-03.43.57:336][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0743Mat]
+[2015.05.12-03.43.57:339][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0743Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0743Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.57:894][758]LogSavePackage: Save=553.294312ms
+[2015.05.12-03.43.57:895][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0743Mat_Auto23065FFC64EC5442765471F9A6CE82C98.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0743Mat_Auto2.uasset'
+[2015.05.12-03.43.58:018][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0744Mat] ([1] browsable assets)...
+[2015.05.12-03.43.58:076][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0744Mat.Mesh_0744Mat]
+[2015.05.12-03.43.58:076][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0744Mat]
+[2015.05.12-03.43.58:078][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0744Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0744Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.58:650][758]LogSavePackage: Save=569.940918ms
+[2015.05.12-03.43.58:652][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0744Mat_Auto21B455B834F7CF42D1BD8B5B964544E9C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0744Mat_Auto2.uasset'
+[2015.05.12-03.43.58:793][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0745Mat] ([1] browsable assets)...
+[2015.05.12-03.43.59:307][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0745Mat.Mesh_0745Mat]
+[2015.05.12-03.43.59:307][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0745Mat]
+[2015.05.12-03.43.59:309][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0745Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0745Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.43.59:898][758]LogSavePackage: Save=586.687073ms
+[2015.05.12-03.43.59:900][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0745Mat_Auto2FCF8DCAD4FE6294E462846AA8C27A440.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0745Mat_Auto2.uasset'
+[2015.05.12-03.43.59:997][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0746Mat] ([1] browsable assets)...
+[2015.05.12-03.44.01:866][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0746Mat.Mesh_0746Mat]
+[2015.05.12-03.44.01:866][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0746Mat]
+[2015.05.12-03.44.01:868][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0746Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0746Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.44.02:450][758]LogSavePackage: Save=579.713196ms
+[2015.05.12-03.44.02:452][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0746Mat_Auto2EC563CB94138E8D12884F38A49980E56.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0746Mat_Auto2.uasset'
+[2015.05.12-03.44.02:549][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0747Mat] ([1] browsable assets)...
+[2015.05.12-03.44.02:629][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0747Mat.Mesh_0747Mat]
+[2015.05.12-03.44.02:629][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0747Mat]
+[2015.05.12-03.44.02:632][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0747Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0747Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.44.03:287][758]LogSavePackage: Save=653.183167ms
+[2015.05.12-03.44.03:307][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0747Mat_Auto2B7FC2D2B4BEE14EB34A31B89A67B294E.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0747Mat_Auto2.uasset'
+[2015.05.12-03.44.03:350][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0748Mat] ([1] browsable assets)...
+[2015.05.12-03.44.05:040][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0748Mat.Mesh_0748Mat]
+[2015.05.12-03.44.05:040][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0748Mat]
+[2015.05.12-03.44.05:042][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0748Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0748Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.44.05:607][758]LogSavePackage: Save=561.143555ms
+[2015.05.12-03.44.05:608][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0748Mat_Auto236FCF6BC4CBB5F88C1E4B2B8E1360C5C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0748Mat_Auto2.uasset'
+[2015.05.12-03.44.05:727][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0818Mat] ([1] browsable assets)...
+[2015.05.12-03.44.05:774][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0818Mat.Mesh_0818Mat]
+[2015.05.12-03.44.05:774][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0818Mat]
+[2015.05.12-03.44.05:776][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0818Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0818Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.44.06:315][758]LogSavePackage: Save=537.129700ms
+[2015.05.12-03.44.06:317][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0818Mat_Auto20C8E1F00448A3182568F7BB5B496BA4D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0818Mat_Auto2.uasset'
+[2015.05.12-03.44.06:396][758]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mesh_0819Mat] ([1] browsable assets)...
+[2015.05.12-03.44.06:611][758]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Mesh_0819Mat.Mesh_0819Mat]
+[2015.05.12-03.44.06:611][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mesh_0819Mat]
+[2015.05.12-03.44.06:613][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mesh_0819Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0819Mat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.12-03.44.07:092][758]LogSavePackage: Save=476.732971ms
+[2015.05.12-03.44.07:093][758]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Mesh_0819Mat_Auto21CCF3B5F4DA5D51BF9A42694410D4061.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Mesh_0819Mat_Auto2.uasset'
+[2015.05.12-03.44.07:102][758]LogFileHelpers: Auto-saving content packages took 13.893
+[2015.05.12-03.44.26:588][852]LogActorFactory: Actor Factory created Secret_Service_Model_1
+[2015.05.12-03.44.27:463][866]LogActorFactory: Actor Factory created Secret_Service_Model_1
+[2015.05.12-03.44.51:153][311]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.44.51:204][311]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.44.53:334][311]LogPlayLevel: PIE:  Blueprint regeneration took 2278 ms (1 blueprints)
+[2015.05.12-03.44.53:464][311]PIE: New page: PIE session: Tuts (May 12, 2015, 11:44:53 PM)
+[2015.05.12-03.44.53:800][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.323949s)
+[2015.05.12-03.44.53:935][311]LogPlayLevel: PIE: World Init took: (0.134155s)
+[2015.05.12-03.44.53:935][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.458412s)
+[2015.05.12-03.44.55:916][311]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.44.56:140][311]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.44.56:184][311]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.44.56
+[2015.05.12-03.44.56:305][311]LogWorld: Bringing up level for play took: 0.163835
+[2015.05.12-03.44.56:720][311]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 6.592
+[2015.05.12-03.45.07:214][495]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084031F77E0
+[2015.05.12-03.45.07:811][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.12-03.45.20:120][717]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.45.20:120][717]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.45.20:298][717]LogPlayLevel: PIE:  Blueprint regeneration took 177 ms (1 blueprints)
+[2015.05.12-03.45.20:298][717]PIE: New page: PIE session: Tuts (May 12, 2015, 11:45:20 PM)
+[2015.05.12-03.45.20:325][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026885s)
+[2015.05.12-03.45.20:327][717]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2015.05.12-03.45.20:327][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.028821s)
+[2015.05.12-03.45.20:370][717]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.45.20:372][717]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.45.20:382][717]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.45.20
+[2015.05.12-03.45.20:384][717]LogWorld: Bringing up level for play took: 0.011346
+[2015.05.12-03.45.20:387][717]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 0.27
+[2015.05.12-03.45.26:538][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084372F91C0
+[2015.05.12-03.45.32:894][951]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.45.32:895][951]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.45.33:071][951]LogPlayLevel: PIE:  Blueprint regeneration took 177 ms (1 blueprints)
+[2015.05.12-03.45.33:071][951]PIE: New page: PIE session: Tuts (May 12, 2015, 11:45:33 PM)
+[2015.05.12-03.45.33:101][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028831s)
+[2015.05.12-03.45.33:103][951]LogPlayLevel: PIE: World Init took: (0.001343s)
+[2015.05.12-03.45.33:103][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.030496s)
+[2015.05.12-03.45.33:140][951]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.45.33:142][951]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.45.33:152][951]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.45.33
+[2015.05.12-03.45.33:153][951]LogWorld: Bringing up level for play took: 0.009933
+[2015.05.12-03.45.33:156][951]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 1.039
+[2015.05.12-03.45.38:497][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084370F4F40
+[2015.05.12-03.45.42:872][141]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.45.42:872][141]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.45.43:004][141]LogPlayLevel: PIE:  Blueprint regeneration took 132 ms (1 blueprints)
+[2015.05.12-03.45.43:005][141]PIE: New page: PIE session: Tuts (May 12, 2015, 11:45:43 PM)
+[2015.05.12-03.45.43:097][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091992s)
+[2015.05.12-03.45.43:098][141]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2015.05.12-03.45.43:098][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.093204s)
+[2015.05.12-03.45.43:141][141]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.45.43:144][141]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.45.43:158][141]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.45.43
+[2015.05.12-03.45.43:159][141]LogWorld: Bringing up level for play took: 0.014796
+[2015.05.12-03.45.43:162][141]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 1.044
+[2015.05.12-03.45.43:177][142]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.051936 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_7'
+[2015.05.12-03.45.45:461][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084395F80E0
+[2015.05.12-03.45.45:555][202]Cmd: SELECT NONE
+[2015.05.12-03.45.47:310][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.12-03.45.52:450][302]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.45.52:450][302]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.45.52:591][302]LogPlayLevel: PIE:  Blueprint regeneration took 141 ms (1 blueprints)
+[2015.05.12-03.45.52:591][302]PIE: New page: PIE session: Tuts (May 12, 2015, 11:45:52 PM)
+[2015.05.12-03.45.52:621][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029502s)
+[2015.05.12-03.45.52:623][302]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2015.05.12-03.45.52:623][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.031069s)
+[2015.05.12-03.45.52:663][302]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.45.52:665][302]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.45.52:675][302]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.45.52
+[2015.05.12-03.45.52:676][302]LogWorld: Bringing up level for play took: 0.010461
+[2015.05.12-03.45.52:679][302]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 0.561
+[2015.05.12-03.45.55:494][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008436C9D6C0
+[2015.05.12-03.46.03:627][495]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.46.03:627][495]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.46.03:790][495]LogPlayLevel: PIE:  Blueprint regeneration took 164 ms (1 blueprints)
+[2015.05.12-03.46.03:791][495]PIE: New page: PIE session: Tuts (May 12, 2015, 11:46:03 PM)
+[2015.05.12-03.46.03:822][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030283s)
+[2015.05.12-03.46.03:823][495]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2015.05.12-03.46.03:823][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.031556s)
+[2015.05.12-03.46.03:861][495]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.46.03:863][495]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.46.03:874][495]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.46.03
+[2015.05.12-03.46.03:875][495]LogWorld: Bringing up level for play took: 0.011362
+[2015.05.12-03.46.03:879][495]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts -0.239
+[2015.05.12-03.46.08:960][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008436C9D8A0
+[2015.05.12-03.46.21:079][800]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.12-03.46.21:079][800]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.12-03.46.21:216][800]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2015.05.12-03.46.21:216][800]PIE: New page: PIE session: Tuts (May 12, 2015, 11:46:21 PM)
+[2015.05.12-03.46.21:246][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028951s)
+[2015.05.12-03.46.21:247][800]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2015.05.12-03.46.21:247][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.030414s)
+[2015.05.12-03.46.21:289][800]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.12-03.46.21:291][800]LogAIModule: Creating AISystem for world Tuts
+[2015.05.12-03.46.21:301][800]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.12-13.46.21
+[2015.05.12-03.46.21:302][800]LogWorld: Bringing up level for play took: 0.010754
+[2015.05.12-03.46.21:305][800]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 1.187
+[2015.05.12-03.46.23:839][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008436C9F560
+[2015.05.12-03.46.23:840][865]Cmd: SELECT NONE
+[2015.05.12-03.46.28:073][945]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.12-03.47.14:639][363]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_head1_c.PNG)
+[2015.05.12-03.47.14:846][363]0.000051 seconds to analyze Texture2D /Game/c_usa_secret_service_head1_c.c_usa_secret_service_head1_c
+
+[2015.05.12-03.47.14:984][363]LogTexture:Display: Building textures: c_usa_secret_service_head1_c (AutoDXT)
+[2015.05.12-03.47.15:390][363]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.47.15:390][363]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.47.19:468][405]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-03.47.21:080][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.12-03.47.54:553][988]LogRenderer:Warning: Reallocating scene render targets to support 1016x624 (Frame:18149).
+[2015.05.12-03.49.20:537][434]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_torso_c.PNG)
+[2015.05.12-03.49.20:575][434]0.000028 seconds to analyze Texture2D /Game/c_usa_secret_service_torso_c.c_usa_secret_service_torso_c
+
+[2015.05.12-03.49.20:654][434]LogTexture:Display: Building textures: c_usa_secret_service_torso_c (AutoDXT)
+[2015.05.12-03.49.20:841][434]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.49.20:841][434]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.49.28:933][555]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_c_Mat, compiling. 
+[2015.05.12-03.50.19:879][105]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2015.05.12-03.50.20:001][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.12-03.50.20:604][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.20:616][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.20:623][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.20:629][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.20:668][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.50.20:672][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.12-03.50.20:672][105]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.12-03.50.20:703][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.12-03.50.20:703][105]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.12-03.50.20:877][105]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.05.12-03.50.21:129][105]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-03.50.21:193][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.21:254][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.21:287][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.21:292][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.21:301][105]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.50.35:929][632]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.12-03.50.35:973][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.12-03.50.36:206][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.36:278][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.36:300][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.36:327][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.36:340][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.50.36:345][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.12-03.50.36:345][632]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.12-03.50.36:345][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.12-03.50.36:346][632]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.12-03.50.36:416][632]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. Is special engine material.
+[2015.05.12-03.50.36:457][632]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-03.50.36:484][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.36:520][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.36:558][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.36:564][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.36:634][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.50.44:819][900]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2015.05.12-03.50.44:856][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.12-03.50.45:135][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.45:256][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.45:363][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.45:420][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.45:488][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.50.45:493][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.12-03.50.45:493][900]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.05.12-03.50.45:493][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.12-03.50.45:493][900]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.05.12-03.50.45:640][900]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. Is special engine material.
+[2015.05.12-03.50.45:679][900]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-03.50.45:837][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
+[2015.05.12-03.50.45:912][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
+[2015.05.12-03.50.46:064][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
+[2015.05.12-03.50.46:295][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2015.05.12-03.50.46:360][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.05.12-03.51.42:331][865]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_legs_c.PNG)
+[2015.05.12-03.51.42:398][865]0.000056 seconds to analyze Texture2D /Game/c_usa_secret_service_legs_c.c_usa_secret_service_legs_c
+
+[2015.05.12-03.51.42:491][865]LogTexture:Display: Building textures: c_usa_secret_service_legs_c (AutoDXT)
+[2015.05.12-03.51.42:891][865]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.51.42:892][865]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.51.51:655][988]LogMaterial: Missing cached shader map for material c_usa_secret_service_legs_c_Mat, compiling. 
+[2015.05.12-03.53.01:797][744]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_gloves_c.PNG)
+[2015.05.12-03.53.01:823][744]0.000074 seconds to analyze Texture2D /Game/c_usa_secret_service_gloves_c.c_usa_secret_service_gloves_c
+
+[2015.05.12-03.53.01:881][744]LogTexture:Display: Building textures: c_usa_secret_service_gloves_c (AutoDXT)
+[2015.05.12-03.53.01:980][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.53.01:981][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.53.12:522][901]LogMaterial: Missing cached shader map for material c_usa_secret_service_gloves_c_Mat, compiling. 
+[2015.05.12-03.53.50:138][592]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_gear2_c.PNG)
+[2015.05.12-03.53.50:174][592]0.000045 seconds to analyze Texture2D /Game/c_usa_secret_service_gear2_c.c_usa_secret_service_gear2_c
+
+[2015.05.12-03.53.50:229][592]LogTexture:Display: Building textures: c_usa_secret_service_gear2_c (AutoDXT)
+[2015.05.12-03.53.50:445][592]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_gear3_c.PNG)
+[2015.05.12-03.53.50:531][592]0.000040 seconds to analyze Texture2D /Game/c_usa_secret_service_gear3_c.c_usa_secret_service_gear3_c
+
+[2015.05.12-03.53.50:569][592]LogTexture:Display: Building textures: c_usa_secret_service_gear3_c (AutoDXT)
+[2015.05.12-03.53.51:281][592]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_alpha_c.PNG)
+[2015.05.12-03.53.51:300][592]0.000024 seconds to analyze Texture2D /Game/c_usa_secret_service_alpha_c.c_usa_secret_service_alpha_c
+
+[2015.05.12-03.53.51:396][592]LogTexture:Display: Building textures: c_usa_secret_service_alpha_c (AutoDXT)
+[2015.05.12-03.53.51:958][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.53.51:958][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.53.51:959][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.53.51:959][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.54.05:351][796]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-03.54.38:222][638]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_c_Mat, compiling. 
+[2015.05.12-03.54.38:254][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.12-03.54.38:627][638]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.12-03.54.38:631][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.12-03.54.38:631][638]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.05.12-03.54.38:631][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.12-03.54.38:631][638]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.05.12-03.54.38:717][638]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_c_Mat, compiling. 
+[2015.05.12-03.54.38:726][638]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-03.54.38:805][638]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.12-03.54.45:308][848]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-03.54.45:308][848]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-03.54.45:308][848]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-03.55.16:231][403]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_torso_shield_c.PNG)
+[2015.05.12-03.55.16:258][403]0.000046 seconds to analyze Texture2D /Game/c_usa_secret_service_torso_shield_c.c_usa_secret_service_torso_shield_c
+
+[2015.05.12-03.55.16:280][403]LogTexture:Display: Building textures: c_usa_secret_service_torso_shield_c (AutoDXT)
+[2015.05.12-03.55.16:450][403]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-03.55.16:450][403]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-03.55.19:793][431]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_shield_c_Mat, compiling. 
+[2015.05.12-03.57.04:883][614]LogMaterial: Missing cached shader map for material c_usa_secret_service_gear3_c_Mat, compiling. 
+[2015.05.12-03.57.19:068][772]LogMaterial: Missing cached shader map for material c_usa_secret_service_gear2_c_Mat, compiling. 
+[2015.05.12-03.59.52:869][501]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-03.59.52:891][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-03.59.53:028][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-03.59.53:031][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-03.59.53:031][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.12-03.59.53:031][501]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-03.59.53:031][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.12-03.59.53:083][501]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-03.59.53:091][501]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-03.59.53:115][501]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-03.59.58:733][637]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-03.59.58:733][637]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-03.59.58:733][637]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-04.00.08:131][665]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_head1_s.PNG)
+[2015.05.12-04.00.08:153][665]0.000027 seconds to analyze Texture2D /Game/c_usa_secret_service_head1_s.c_usa_secret_service_head1_s
+
+[2015.05.12-04.00.08:178][665]LogTexture:Display: Building textures: c_usa_secret_service_head1_s (AutoDXT)
+[2015.05.12-04.00.08:444][665]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\Creative\Bo2 Models\Black Ops 2 Models Part 4\Secret Service 1\Textures\c_usa_secret_service_head1_n.PNG)
+[2015.05.12-04.00.08:471][665]0.000034 seconds to analyze Texture2D /Game/c_usa_secret_service_head1_n.c_usa_secret_service_head1_n
+
+[2015.05.12-04.00.08:601][665]LogTexture:Display: Building textures: c_usa_secret_service_head1_n (BC5)
+[2015.05.12-04.00.08:816][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.12-04.00.08:816][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-04.00.08:816][665]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.12-04.00.16:173][840]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.16:183][840]LogMaterial: 0.000233 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.16:221][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.16:259][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.16:303][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.16:410][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.16:579][840]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.16:587][840]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.16:623][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.16:642][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.16:719][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.00.16:804][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.16:888][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.16:915][840]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.00.20:002][946]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-04.00.20:002][946]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.00.20:002][946]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-04.00.23:909][ 80]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.23:914][ 80]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.23:995][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.24:053][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.24:086][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.00.26:640][170]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.12-04.00.26:640][170]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.00.26:640][170]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.05.12-04.00.33:433][437]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.33:438][437]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.33:486][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.33:524][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.33:546][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.00.36:382][503]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.05.12-04.00.36:382][503]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.00.36:382][503]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.12-04.00.56:555][895]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.56:560][895]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.56:606][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.56:683][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.56:723][895]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.00.58:194][937]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.00.58:204][937]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.00.58:248][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.00.58:278][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.00.58:346][937]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.01.02:370][ 15]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.05.12-04.01.02:370][ 15]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.01.02:370][ 15]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.12-04.01.49:442][462]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.12-04.01.54:726][462]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.01.54:739][462]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.01.54:807][462]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.01.54:853][462]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.01.54:864][462]LogMaterial: 0.003556 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.01.58:347][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.12-04.01.58:576][462]LogSavePackage: Save=227.994827ms
+[2015.05.12-04.01.58:576][462]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat31571B074E9E1DFD5E173A98BD21A0AF.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.12-04.01.58:648][462]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.05.12-04.01.58:648][462]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.01.58:648][462]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.12-04.04.44:821][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000843704C540
+[2015.05.12-04.04.44:840][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008462E17600
+[2015.05.12-04.04.44:841][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084370207C0
+[2015.05.12-04.04.44:841][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000846282BC40
+[2015.05.12-04.04.45:054][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.12-04.04.46:541][479]LogSavePackage: Save=595.943298ms
+[2015.05.12-04.04.46:541][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto3682CA21A4D7FEF5819136C9210AD1FD7.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto3.umap'
+[2015.05.12-04.04.46:570][479]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 1.874
+[2015.05.12-04.04.46:570][479]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.874
+[2015.05.12-04.04.46:603][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Secret_Service_Model_1] ([1] browsable assets)...
+[2015.05.12-04.04.46:659][479]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Secret_Service_Model_1.Secret_Service_Model_1]
+[2015.05.12-04.04.46:659][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/Secret_Service_Model_1]
+[2015.05.12-04.04.46:948][479]LogSavePackage: Save=267.033691ms
+[2015.05.12-04.04.46:950][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Secret_Service_Model_1_Auto3B0F511B843D6FFF02EB5E7B1B931137C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Secret_Service_Model_1_Auto3.uasset'
+[2015.05.12-04.04.46:991][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_head1_c] ([1] browsable assets)...
+[2015.05.12-04.04.47:026][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_head1_c.c_usa_secret_service_head1_c]
+[2015.05.12-04.04.47:026][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_head1_c]
+[2015.05.12-04.04.48:257][479]LogSavePackage: Save=1228.402832ms
+[2015.05.12-04.04.48:258][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Auto3FBFAFBF7448449515A925C89C48EBD0A.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_head1_c_Auto3.uasset'
+[2015.05.12-04.04.48:296][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_torso_c] ([1] browsable assets)...
+[2015.05.12-04.04.48:350][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_torso_c.c_usa_secret_service_torso_c]
+[2015.05.12-04.04.48:350][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_torso_c]
+[2015.05.12-04.04.49:354][479]LogSavePackage: Save=1000.509766ms
+[2015.05.12-04.04.49:356][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_c_Auto3D138127344DB2E69EA7B38B868551632.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_torso_c_Auto3.uasset'
+[2015.05.12-04.04.49:406][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_torso_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.04.49:453][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_torso_c_Mat.c_usa_secret_service_torso_c_Mat]
+[2015.05.12-04.04.49:453][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_torso_c_Mat]
+[2015.05.12-04.04.49:815][479]LogSavePackage: Save=358.623413ms
+[2015.05.12-04.04.49:817][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_c_Mat_Auto325704C6341DB7624121C7197B5320D9A.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_torso_c_Mat_Auto3.uasset'
+[2015.05.12-04.04.49:912][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_legs_c] ([1] browsable assets)...
+[2015.05.12-04.04.49:929][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_legs_c.c_usa_secret_service_legs_c]
+[2015.05.12-04.04.49:929][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_legs_c]
+[2015.05.12-04.04.51:608][479]LogSavePackage: Save=1675.499756ms
+[2015.05.12-04.04.51:610][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_legs_c_Auto3F03EC6034D942B4D17EE95ABB5974479.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_legs_c_Auto3.uasset'
+[2015.05.12-04.04.51:657][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_legs_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.04.51:702][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_legs_c_Mat.c_usa_secret_service_legs_c_Mat]
+[2015.05.12-04.04.51:702][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_legs_c_Mat]
+[2015.05.12-04.04.52:031][479]LogSavePackage: Save=325.521423ms
+[2015.05.12-04.04.52:032][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_legs_c_Mat_Auto3CE784B36480378442F2517A2037B1FDD.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_legs_c_Mat_Auto3.uasset'
+[2015.05.12-04.04.52:100][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gloves_c] ([1] browsable assets)...
+[2015.05.12-04.04.52:137][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_gloves_c.c_usa_secret_service_gloves_c]
+[2015.05.12-04.04.52:137][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gloves_c]
+[2015.05.12-04.04.52:598][479]LogSavePackage: Save=457.009583ms
+[2015.05.12-04.04.52:600][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gloves_c_Auto3E5289A684BE0BD110CF04381A1B19A58.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gloves_c_Auto3.uasset'
+[2015.05.12-04.04.52:638][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gloves_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.04.52:692][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_gloves_c_Mat.c_usa_secret_service_gloves_c_Mat]
+[2015.05.12-04.04.52:692][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gloves_c_Mat]
+[2015.05.12-04.04.53:138][479]LogSavePackage: Save=439.230194ms
+[2015.05.12-04.04.53:139][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gloves_c_Mat_Auto31D40EDCC4536680924995BA16B396479.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gloves_c_Mat_Auto3.uasset'
+[2015.05.12-04.04.53:185][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gear2_c] ([1] browsable assets)...
+[2015.05.12-04.04.53:209][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_gear2_c.c_usa_secret_service_gear2_c]
+[2015.05.12-04.04.53:209][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gear2_c]
+[2015.05.12-04.04.54:081][479]LogSavePackage: Save=868.530273ms
+[2015.05.12-04.04.54:083][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear2_c_Auto320095D074DBBA74508FFB4BEEBD46F04.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gear2_c_Auto3.uasset'
+[2015.05.12-04.04.54:125][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gear3_c] ([1] browsable assets)...
+[2015.05.12-04.04.54:176][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_gear3_c.c_usa_secret_service_gear3_c]
+[2015.05.12-04.04.54:176][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gear3_c]
+[2015.05.12-04.04.56:846][479]LogSavePackage: Save=2665.094482ms
+[2015.05.12-04.04.56:847][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear3_c_Auto3ADCF294E4266CD890F9B7F90C952FBB0.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gear3_c_Auto3.uasset'
+[2015.05.12-04.04.56:889][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_alpha_c] ([1] browsable assets)...
+[2015.05.12-04.04.56:913][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_alpha_c.c_usa_secret_service_alpha_c]
+[2015.05.12-04.04.56:913][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_alpha_c]
+[2015.05.12-04.04.58:356][479]LogSavePackage: Save=1439.592407ms
+[2015.05.12-04.04.58:357][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_alpha_c_Auto3EDE9F6E243A8B4E35356768A87140C96.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_alpha_c_Auto3.uasset'
+[2015.05.12-04.04.58:401][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_alpha_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.04.58:456][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_alpha_c_Mat.c_usa_secret_service_alpha_c_Mat]
+[2015.05.12-04.04.58:456][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_alpha_c_Mat]
+[2015.05.12-04.04.58:805][479]LogSavePackage: Save=345.813171ms
+[2015.05.12-04.04.58:807][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_alpha_c_Mat_Auto3F0AE04AE4FC481204DE494888AF99A9E.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_alpha_c_Mat_Auto3.uasset'
+[2015.05.12-04.04.58:847][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_torso_shield_c] ([1] browsable assets)...
+[2015.05.12-04.04.58:864][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_torso_shield_c.c_usa_secret_service_torso_shield_c]
+[2015.05.12-04.04.58:864][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_torso_shield_c]
+[2015.05.12-04.04.59:863][479]LogSavePackage: Save=994.721252ms
+[2015.05.12-04.04.59:864][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_shield_c_Auto34C0EA83F40360CFD8E1DE183CAAFB589.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_torso_shield_c_Auto3.uasset'
+[2015.05.12-04.04.59:908][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_torso_shield_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.04.59:964][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_torso_shield_c_Mat.c_usa_secret_service_torso_shield_c_Mat]
+[2015.05.12-04.04.59:964][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_torso_shield_c_Mat]
+[2015.05.12-04.05.00:289][479]LogSavePackage: Save=321.214294ms
+[2015.05.12-04.05.00:290][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_shield_c_Mat_Auto3B5E2AE01475F5EB1BAA771A86713B947.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_torso_shield_c_Mat_Auto3.uasset'
+[2015.05.12-04.05.00:336][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gear3_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.05.00:389][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_gear3_c_Mat.c_usa_secret_service_gear3_c_Mat]
+[2015.05.12-04.05.00:389][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gear3_c_Mat]
+[2015.05.12-04.05.00:632][479]LogSavePackage: Save=240.285934ms
+[2015.05.12-04.05.00:634][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear3_c_Mat_Auto31E387C5C44E0EBF49B397DBEB898B00C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gear3_c_Mat_Auto3.uasset'
+[2015.05.12-04.05.00:675][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_gear2_c_Mat] ([1] browsable assets)...
+[2015.05.12-04.05.00:708][479]OBJ SavePackage:     Rendered thumbnail for [Material /Game/c_usa_secret_service_gear2_c_Mat.c_usa_secret_service_gear2_c_Mat]
+[2015.05.12-04.05.00:708][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_gear2_c_Mat]
+[2015.05.12-04.05.01:037][479]LogSavePackage: Save=325.557770ms
+[2015.05.12-04.05.01:038][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear2_c_Mat_Auto32E96D2F04C1B3E2B33FDF8937183297D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_gear2_c_Mat_Auto3.uasset'
+[2015.05.12-04.05.01:083][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_head1_s] ([1] browsable assets)...
+[2015.05.12-04.05.01:122][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_head1_s.c_usa_secret_service_head1_s]
+[2015.05.12-04.05.01:122][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_head1_s]
+[2015.05.12-04.05.02:078][479]LogSavePackage: Save=948.594360ms
+[2015.05.12-04.05.02:079][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_s_Auto35EB8AC6E4613F18787A4B191C15DA8B6.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_head1_s_Auto3.uasset'
+[2015.05.12-04.05.02:120][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_head1_n] ([1] browsable assets)...
+[2015.05.12-04.05.02:137][479]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_head1_n.c_usa_secret_service_head1_n]
+[2015.05.12-04.05.02:137][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_head1_n]
+[2015.05.12-04.05.03:615][479]LogSavePackage: Save=1450.557373ms
+[2015.05.12-04.05.03:616][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_n_Auto3FEF7FECB48FEC729F2DBC398488E9996.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_head1_n_Auto3.uasset'
+[2015.05.12-04.05.03:625][479]LogFileHelpers: Auto-saving content packages took 17.055
+[2015.05.12-04.12.54:947][525]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.12.54:953][525]LogMaterial: 0.000174 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.12.55:062][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.12.55:117][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.12.55:159][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.13.00:232][674]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.3795 seconds. Added 1 classes and 2 folders.
+[2015.05.12-04.13.00:683][675]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.12-04.13.00:683][675]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.13.00:683][675]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.05.12-04.13.29:052][203]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.13.29:058][203]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.13.29:141][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.13.29:203][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.13.29:221][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.13.34:279][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-04.13.34:279][327]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.13.34:280][327]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-04.13.40:717][580]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-04.13.40:717][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.12-04.13.51:666][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-04.13.51:666][916]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.12-04.13.53:373][987]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.12-04.13.53:373][987]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.12-04.14.03:426][127]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.03:426][127]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.03:695][129]LogRenderer:Warning: Reallocating scene render targets to support 1016x624 (Frame:46834).
+[2015.05.12-04.14.05:318][135]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.05:318][135]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.05:507][137]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.05:507][137]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.05:788][140]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.05:788][140]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.05:884][141]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.05:884][141]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.06:101][143]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.06:101][143]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.06:183][144]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.06:183][144]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.06:276][145]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.05.12-04.14.06:276][145]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.05.12-04.14.16:568][382]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.14.16:574][382]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.14.16:643][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.14.16:686][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.14.16:773][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.14.21:199][479]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 45 instructions
+[2015.05.12-04.14.21:199][479]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.14.21:199][479]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.05.12-04.15.04:782][608]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008472024220
+[2015.05.12-04.15.04:846][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.12-04.15.05:332][608]LogSavePackage: Save=417.953613ms
+[2015.05.12-04.15.05:332][608]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto416B30122491A1F67B09DDCA564F1D59F.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto4.umap'
+[2015.05.12-04.15.05:350][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.623
+[2015.05.12-04.15.05:350][608]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.623
+[2015.05.12-04.15.05:382][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/c_usa_secret_service_head1_s] ([1] browsable assets)...
+[2015.05.12-04.15.05:393][608]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/c_usa_secret_service_head1_s.c_usa_secret_service_head1_s]
+[2015.05.12-04.15.05:393][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/c_usa_secret_service_head1_s]
+[2015.05.12-04.15.05:631][608]LogSavePackage: Save=234.332397ms
+[2015.05.12-04.15.05:633][608]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_s_Auto493DEC41247D8AE680C0E389289C3C0EE.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/c_usa_secret_service_head1_s_Auto4.uasset'
+[2015.05.12-04.15.05:641][608]LogFileHelpers: Auto-saving content packages took 0.291
+[2015.05.12-04.15.48:738][913]LogMaterialEditor: Applying material c_usa_secret_service_head1_c_Mat
+[2015.05.12-04.15.50:590][913]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.15.50:631][913]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.15.50:773][913]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.15.50:837][913]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.15.50:849][913]LogMaterial: 0.003612 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.15.58:171][109]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.05.12-04.15.58:171][109]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.15.58:171][109]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.12-04.16.35:918][880]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.16.35:923][880]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.16.36:001][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.12-04.16.36:052][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.12-04.16.36:070][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.12-04.16.41:061][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.05.12-04.16.41:061][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.16.41:061][ 25]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.12-04.16.56:677][308]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.12-04.16.58:996][308]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.16.59:036][308]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.16.59:159][308]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.16.59:245][308]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.12-04.16.59:261][308]LogMaterial: 0.004488 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.17.02:449][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.12-04.17.02:760][308]LogSavePackage: Save=274.032806ms
+[2015.05.12-04.17.02:760][308]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat6E47C04E43A2D8B49C36218FD37E7A22.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.12-04.17.02:772][308]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.05.12-04.17.02:772][308]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.17.02:773][308]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.12-04.17.20:439][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.12-04.17.26:007][529]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.17.26:044][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.12-04.17.26:271][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.12-04.17.26:278][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.12-04.17.26:278][529]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.12-04.17.26:279][529]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.12-04.17.26:279][529]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.12-04.17.26:357][529]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.17.26:368][529]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.17.26:481][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.12-04.17.31:439][627]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-04.17.31:439][627]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.17.31:439][627]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-04.17.35:938][785]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.17.35:942][785]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.17.35:989][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.12-04.17.39:979][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.12-04.17.39:979][914]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.12-04.17.39:979][914]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.12-04.17.40:204][918]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.17.40:341][918]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.17.40:351][918]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.17.40:411][918]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.12-04.17.51:476][188]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.05.12-04.17.51:476][188]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.05.12-04.17.51:476][188]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.12-04.17.51:476][188]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.12-04.17.57:282][446]LogMaterialEditor: Applying material c_usa_secret_service_alpha_c_Mat
+[2015.05.12-04.17.59:944][446]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.18.00:008][446]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.18.00:144][446]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.18.00:209][446]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.18.00:234][446]LogMaterial: 0.005411 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.18.27:505][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 43 instructions
+[2015.05.12-04.18.27:505][691]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 79 instructions
+[2015.05.12-04.18.27:505][691]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.12-04.18.27:505][691]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.12-04.18.33:718][806]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.12-04.18.55:167][190]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.18.55:176][190]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.18.55:247][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.05.12-04.19.05:393][488]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.12-04.19.05:394][488]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.12-04.19.08:126][578]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.12-04.19.08:126][578]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.12-04.19.12:532][634]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2015.05.12-04.19.12:532][634]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2015.05.12-04.19.12:532][634]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.12-04.19.12:532][634]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.12-04.19.19:138][782]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_alpha_c_Mat
+[2015.05.12-04.19.21:926][782]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.19.21:984][782]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.19.22:069][782]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.19.22:140][782]LogMaterial: Missing cached shader map for material c_usa_secret_service_alpha_c_Mat, compiling. 
+[2015.05.12-04.19.22:165][782]LogMaterial: 0.005892 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.12-04.19.34:669][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_alpha_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_alpha_c_Mat.uasset" SILENT=true
+[2015.05.12-04.19.34:958][782]LogSavePackage: Save=287.130859ms
+[2015.05.12-04.19.34:958][782]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_alpha_c_Mat904BA0424A0224D14A42C1A791C689F9.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_alpha_c_Mat.uasset'
+[2015.05.12-04.19.34:971][782]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.05.12-04.19.34:972][782]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 80 instructions
+[2015.05.12-04.19.34:972][782]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.12-04.19.34:972][782]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.12-04.25.06:558][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000843725C5E0
+[2015.05.12-04.25.06:718][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.12-04.25.07:224][777]LogSavePackage: Save=467.285217ms
+[2015.05.12-04.25.07:224][777]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto555C4A77D4242DFE1AECB2F9E2C8BB0B1.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto5.umap'
+[2015.05.12-04.25.07:233][777]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.707
+[2015.05.12-04.25.07:233][777]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.707
+[2015.05.12-04.43.47:770][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.12-04.43.48:318][213]LogSavePackage: Save=434.839661ms
+[2015.05.12-04.43.48:318][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts2CBC00F6489E2F2819630CBC6A66177C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap'
+[2015.05.12-04.43.48:554][213]LogFileHelpers: Saving map 'Tuts' took 7.182
+[2015.05.12-04.43.48:605][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Secret_Service_Model_1" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Secret_Service_Model_1.uasset" SILENT=true
+[2015.05.12-04.43.48:749][213]LogSavePackage: Save=142.409958ms
+[2015.05.12-04.43.48:749][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Secret_Service_Model_1FC1526554C31D4A4FD1DE092BCEEDA7D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Secret_Service_Model_1.uasset'
+[2015.05.12-04.43.48:773][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c.uasset" SILENT=true
+[2015.05.12-04.43.48:913][213]LogSavePackage: Save=138.194321ms
+[2015.05.12-04.43.48:914][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_cEF928F7D46FEFF153C4A079BAF453751.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c.uasset'
+[2015.05.12-04.43.48:943][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_torso_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_c.uasset" SILENT=true
+[2015.05.12-04.43.49:205][213]LogSavePackage: Save=260.077759ms
+[2015.05.12-04.43.49:205][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_cDBA4E315401CAA2E152448A765CE07D7.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_c.uasset'
+[2015.05.12-04.43.49:263][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_torso_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_c_Mat.uasset" SILENT=true
+[2015.05.12-04.43.49:554][213]LogSavePackage: Save=287.036774ms
+[2015.05.12-04.43.49:554][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_c_MatD24427E249D18CFA2E0444AFA97AA6D1.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_c_Mat.uasset'
+[2015.05.12-04.43.49:582][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_legs_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_legs_c.uasset" SILENT=true
+[2015.05.12-04.43.49:746][213]LogSavePackage: Save=162.477188ms
+[2015.05.12-04.43.49:746][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_legs_c43640C1842BC49101454938211319656.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_legs_c.uasset'
+[2015.05.12-04.43.49:796][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_legs_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_legs_c_Mat.uasset" SILENT=true
+[2015.05.12-04.43.50:045][213]LogSavePackage: Save=246.404968ms
+[2015.05.12-04.43.50:045][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_legs_c_MatD4B2742B4592AB246173C88FC92415C7.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_legs_c_Mat.uasset'
+[2015.05.12-04.43.50:065][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gloves_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gloves_c.uasset" SILENT=true
+[2015.05.12-04.43.50:165][213]LogSavePackage: Save=97.886665ms
+[2015.05.12-04.43.50:165][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gloves_cCE88DEDC49567C0A1DBBEC8CA17F5850.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gloves_c.uasset'
+[2015.05.12-04.43.50:217][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gloves_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gloves_c_Mat.uasset" SILENT=true
+[2015.05.12-04.43.50:456][213]LogSavePackage: Save=236.156677ms
+[2015.05.12-04.43.50:456][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gloves_c_Mat84B5E83848EECE84C81597927041274F.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gloves_c_Mat.uasset'
+[2015.05.12-04.43.50:493][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gear2_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear2_c.uasset" SILENT=true
+[2015.05.12-04.43.50:740][213]LogSavePackage: Save=243.736099ms
+[2015.05.12-04.43.50:740][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear2_cEFB56EA84BC2519383C684BC27F0BA5D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear2_c.uasset'
+[2015.05.12-04.43.50:771][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gear3_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear3_c.uasset" SILENT=true
+[2015.05.12-04.43.51:107][213]LogSavePackage: Save=319.830444ms
+[2015.05.12-04.43.51:107][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear3_cD2F161584E4987AD62630F83652B2A68.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear3_c.uasset'
+[2015.05.12-04.43.51:134][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_alpha_c" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_alpha_c.uasset" SILENT=true
+[2015.05.12-04.43.51:549][213]LogSavePackage: Save=413.536560ms
+[2015.05.12-04.43.51:549][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_alpha_c482B148444EACAF196C7258F80AFB559.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_alpha_c.uasset'
+[2015.05.12-04.43.51:830][213]LogSavePackage: Save=235.614014ms
+[2015.05.12-04.43.51:830][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_shield_cB5BB3F574C96FAFC40716E94795B1539.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_shield_c.uasset'
+[2015.05.12-04.43.52:135][213]LogSavePackage: Save=252.229370ms
+[2015.05.12-04.43.52:135][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_torso_shield_c_MatCE8ECDB44E986D328A7E858AB7ADB300.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_torso_shield_c_Mat.uasset'
+[2015.05.12-04.43.52:186][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gear3_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear3_c_Mat.uasset" SILENT=true
+[2015.05.12-04.43.52:416][213]LogSavePackage: Save=227.251175ms
+[2015.05.12-04.43.52:416][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear3_c_Mat0788E3C247E7702E7CF05294E19B5D9C.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear3_c_Mat.uasset'
+[2015.05.12-04.43.52:474][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_gear2_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear2_c_Mat.uasset" SILENT=true
+[2015.05.12-04.43.52:769][213]LogSavePackage: Save=287.930969ms
+[2015.05.12-04.43.52:769][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_gear2_c_MatDA7C5BFF41CEB4F6A7697A9771890CDB.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_gear2_c_Mat.uasset'
+[2015.05.12-04.43.52:790][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_s" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_s.uasset" SILENT=true
+[2015.05.12-04.43.53:034][213]LogSavePackage: Save=242.117493ms
+[2015.05.12-04.43.53:034][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_sC4C0ABA7416AB571A0FDC194F82B3150.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_s.uasset'
+[2015.05.12-04.43.53:055][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_n" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_n.uasset" SILENT=true
+[2015.05.12-04.43.53:211][213]LogSavePackage: Save=154.304214ms
+[2015.05.12-04.43.53:211][213]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_n3B97C43F4280744E1C174A86665EAB3F.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_n.uasset'
+[2015.05.12-04.44.02:224][262]Cmd: QUIT_EDITOR
+[2015.05.12-04.44.03:974][262]LogExit: Preparing to exit.
+[2015.05.12-04.44.08:866][262]LogExit: Editor shut down
+[2015.05.12-04.44.08:977][262]LogExit: Transaction tracking system shut down
+[2015.05.12-04.44.09:304][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084046816C0
+[2015.05.12-04.44.09:333][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000846DDBB920
+[2015.05.12-04.44.10:105][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000846E2479C0
+[2015.05.12-04.44.10:105][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000846E2477E0
+[2015.05.12-04.44.10:105][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000845B51D120
+[2015.05.12-04.44.17:387][262]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000084031F5580
+[2015.05.12-04.44.17:388][262]LogExit: Object subsystem successfully closed.
+[2015.05.12-04.44.20:995][262]LogModuleManager: Shutting down and abandoning module TextureEditor (180)
+[2015.05.12-04.44.20:999][262]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
+[2015.05.12-04.44.20:999][262]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (178)
+[2015.05.12-04.44.20:999][262]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.12-04.44.21:033][262]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.12-04.44.21:033][262]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.12-04.44.21:033][262]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.12-04.44.21:033][262]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.12-04.44.21:093][262]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.12-04.44.21:159][262]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.12-04.44.21:159][262]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.12-04.44.21:268][262]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.12-04.44.21:285][262]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.12-04.44.21:293][262]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.12-04.44.21:293][262]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.12-04.44.21:293][262]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.12-04.44.21:302][262]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.12-04.44.21:391][262]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.12-04.44.21:446][262]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.12-04.44.21:533][262]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.12-04.44.21:552][262]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.12-04.44.21:552][262]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.12-04.44.21:590][262]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.12-04.44.21:610][262]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.12-04.44.21:610][262]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.12-04.44.21:610][262]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.12-04.44.21:621][262]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.12-04.44.21:621][262]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.12-04.44.21:635][262]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.12-04.44.21:635][262]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.12-04.44.22:141][262]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.12-04.44.22:162][262]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.12-04.44.22:162][262]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.12-04.44.22:305][262]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.12-04.44.22:310][262]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.12-04.44.22:384][262]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.12-04.44.22:396][262]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.12-04.44.22:412][262]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.12-04.44.22:440][262]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.12-04.44.22:460][262]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.12-04.44.22:470][262]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.12-04.44.22:525][262]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.12-04.44.22:674][262]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.12-04.44.22:720][262]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.12-04.44.22:739][262]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.12-04.44.22:781][262]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.12-04.44.22:781][262]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.12-04.44.22:781][262]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.12-04.44.22:782][262]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.12-04.44.23:658][262]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.12-04.44.23:709][262]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.12-04.44.23:744][262]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.12-04.44.23:956][262]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.12-04.44.23:989][262]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.12-04.44.23:989][262]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.12-04.44.24:045][262]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.12-04.44.24:070][262]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.12-04.44.24:087][262]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.12-04.44.24:210][262]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.12-04.44.24:217][262]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.12-04.44.24:235][262]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.12-04.44.24:266][262]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.12-04.44.24:267][262]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.12-04.44.24:296][262]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.12-04.44.24:297][262]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.12-04.44.24:297][262]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.12-04.44.24:297][262]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.12-04.44.24:324][262]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.12-04.44.24:324][262]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.12-04.44.24:362][262]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.12-04.44.24:640][262]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.12-04.44.24:664][262]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.12-04.44.24:668][262]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.12-04.44.24:668][262]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.12-04.44.24:668][262]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.12-04.44.24:668][262]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.12-04.44.24:738][262]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.12-04.44.24:770][262]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.12-04.44.24:770][262]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.12-04.44.24:827][262]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.12-04.44.24:867][262]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.12-04.44.24:908][262]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.12-04.44.24:908][262]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.12-04.44.24:980][262]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.12-04.44.24:980][262]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.12-04.44.25:017][262]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.12-04.44.25:017][262]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.12-04.44.25:062][262]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.12-04.44.25:110][262]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.12-04.44.25:173][262]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.12-04.44.25:238][262]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.12-04.44.25:238][262]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.12-04.44.25:238][262]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.12-04.44.25:238][262]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.12-04.44.25:239][262]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.12-04.44.25:306][262]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.12-04.44.25:327][262]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.12-04.44.25:439][262]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.12-04.44.25:451][262]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.12-04.44.25:477][262]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.12-04.44.25:477][262]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.12-04.44.25:589][262]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.12-04.44.25:589][262]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.12-04.44.25:630][262]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.12-04.44.25:667][262]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.12-04.44.25:667][262]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.12-04.44.25:692][262]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.12-04.44.25:814][262]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.12-04.44.25:814][262]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.12-04.44.25:845][262]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.12-04.44.25:872][262]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.12-04.44.25:887][262]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.12-04.44.25:977][262]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.12-04.44.25:977][262]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.12-04.44.26:153][262]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.12-04.44.26:153][262]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.12-04.44.26:167][262]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.12-04.44.26:179][262]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.12-04.44.26:192][262]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.12-04.44.26:222][262]LogDerivedDataCache: Shutdown
+[2015.05.12-04.44.26:222][262]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.12-04.44.26:260][262]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.12-04.44.26:289][262]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.12-04.44.26:328][262]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.12-04.44.26:357][262]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.12-04.44.26:358][262]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.12-04.44.26:358][262]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.12-04.44.26:358][262]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.12-04.44.26:404][262]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.12-04.44.26:405][262]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.12-04.44.26:405][262]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.12-04.44.26:405][262]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.12-04.44.26:431][262]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.12-04.44.26:474][262]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.12-04.44.26:475][262]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.12-04.44.26:475][262]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.12-04.44.26:475][262]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.12-04.44.26:475][262]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.12-04.44.26:475][262]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.12-04.44.26:483][262]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.12-04.44.26:483][262]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.12-04.44.26:501][262]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.12-04.44.26:501][262]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.12-04.44.26:519][262]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.12-04.44.26:527][262]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.12-04.44.26:610][262]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.12-04.44.26:610][262]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.12-04.44.26:613][262]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.12-04.44.26:613][262]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.12-04.44.26:640][262]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.12-04.44.26:651][262]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.12-04.44.26:651][262]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.12-04.44.26:651][262]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.12-04.44.26:651][262]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.12-04.44.26:840][262]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.12-04.44.26:863][262]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.12-04.44.26:863][262]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.12-04.44.26:863][262]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.12-04.44.26:863][262]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.12-04.44.26:863][262]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.12-04.44.26:888][262]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.12-04.44.26:920][262]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.12-04.44.26:924][262]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.12-04.44.27:022][262]LogExit: Exiting.
+[2015.05.12-04.44.27:559][262]Log file closed, 05/12/15 14:44:27

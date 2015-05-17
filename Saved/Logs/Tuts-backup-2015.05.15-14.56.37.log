@@ -1,0 +1,1489 @@
+﻿Log file open, 05/13/15 22:25:43
+LogInit:Display: Running engine for game: Tuts
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.13-12.25.44:234][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.05.13-12.25.44:300][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.13-12.25.44:320][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.13-12.25.44:333][  0]LogInit: Object subsystem initialized
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.13-12.25.44:335][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.13-12.25.44:336][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.13-12.25.44:336][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.13-12.25.44:432][  0]LogInit: Computer: BEATS
+[2015.05.13-12.25.44:432][  0]LogInit: User: jbutl75
+[2015.05.13-12.25.44:432][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.05.13-12.25.44:432][  0]LogInit: High frequency timer resolution =2.338439 MHz
+[2015.05.13-12.25.44:433][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=131072.0GB
+[2015.05.13-12.25.44:434][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.13-12.25.44:434][  0]LogMemory: Process Physical Memory: 46.02 MB used, 46.02 MB peak
+[2015.05.13-12.25.44:434][  0]LogMemory: Process Virtual Memory: 28.30 MB used, 28.31 MB peak
+[2015.05.13-12.25.44:434][  0]LogMemory: Physical Memory: 1696.46 MB used, 4043.81 MB total
+[2015.05.13-12.25.44:434][  0]LogMemory: Virtual Memory: 293.64 MB used, 134217728.00 MB total
+[2015.05.13-12.25.44:545][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.05.13-12.25.44:545][  0]LogD3D11RHI: Adapter has 1015MB of dedicated video memory, 0MB of dedicated system memory, and 2021MB of shared system memory, 1 output[s]
+[2015.05.13-12.25.44:546][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.13-12.25.44:546][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.13-12.25.44:546][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.13-12.25.44:552][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.13-12.25.44:562][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.13-12.25.45:021][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.13-12.25.45:091][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.13-12.25.45:091][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.13-12.25.45:186][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.13-12.25.57:298][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.13-12.26.00:088][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.13-12.26.00:295][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.13-12.26.01:560][  0]LogDerivedDataCache: Loaded boot cache 1.22s 36MB C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.13-12.26.01:560][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.13-12.26.01:560][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.13-12.26.01:560][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.13-12.26.01:858][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.13-12.26.01:908][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jbutl_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.13-12.26.30:314][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.13-12.26.30:314][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.13-12.26.34:376][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.13-12.26.34:928][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.13-12.27.04:522][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.13-12.27.05:934][  0]SourceControl: Info Source control is disabled
+[2015.05.13-12.27.05:934][  0]SourceControl: Info Source control is disabled
+[2015.05.13-12.27.05:934][  0]SourceControl: Info Source control is disabled
+[2015.05.13-12.27.05:934][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.13-12.27.05:971][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.13-12.27.06:002][  0]SourceControl: Info Source control is disabled
+[2015.05.13-12.27.07:937][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.13-12.27.07:937][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.13-12.27.09:021][  0]LogEngine: Initializing Engine...
+[2015.05.13-12.27.12:313][  0]LogInit: XAudio2 using 'Speakers / HP (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.13-12.27.12:574][  0]LogInit: FAudioDevice initialized.
+[2015.05.13-12.27.12:926][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.13-12.27.13:169][  0]LogDerivedDataCache: Saved boot cache 0.23s 36MB C:/Users/jbutl_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.13-12.27.13:180][  0]LogInit: Texture streaming: Enabled
+[2015.05.13-12.27.15:392][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.13-12.27.15:392][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.13-12.27.15:392][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.13-12.27.15:393][  0]LogAnalytics: SetUserId 4ef35f964f4e4604a79b73919b19a5e8|4b329d41c9194136a0c76ae4052c1778|27ce72d0-b477-4cbb-abfe-63a03639d778
+[2015.05.13-12.27.15:520][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.13-12.27.15:800][  0]LogInit: Transaction tracking system initialized
+[2015.05.13-12.27.19:807][  0]BlueprintLog: New page: Editor Load
+[2015.05.13-12.27.19:979][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2015.05.13-12.27.19:981][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.13-12.27.25:445][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.13-12.27.26:092][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.13-12.27.29:863][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.13-12.27.29:889][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.13-12.27.30:102][  0]LogConsoleResponse:Display: 
+[2015.05.13-12.27.35:839][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.13-12.27.38:150][  0]SourceControl: Info Source control is disabled
+[2015.05.13-12.27.38:212][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.05.13-12.27.38:272][  0]LightingResults: New page: Lighting Build
+[2015.05.13-12.27.38:313][  0]MapCheck: New page: Map Check
+[2015.05.13-12.27.38:313][  0]LightingResults: New page: Lighting Build
+[2015.05.13-12.27.38:404][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069F2B8F060
+[2015.05.13-12.27.38:547][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.13-12.27.51:332][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.13-12.27.52:799][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.05.13-12.27.52:848][  0]Cmd: MAP CHECKDEP
+[2015.05.13-12.27.52:849][  0]MapCheck: New page: FirstPersonExampleMap - May 14, 2015, 8:27:52 AM
+[2015.05.13-12.27.53:137][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 288.655ms to complete.
+[2015.05.13-12.27.53:137][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 14.945
+[2015.05.13-12.27.55:766][  0]LogCollectionManager: Loaded 0 collections in 0.007502 seconds
+[2015.05.13-12.27.55:834][  0]LogContentBrowser: Native class hierarchy populated in 0.0673 seconds. Added 1696 classes and 261 folders.
+[2015.05.13-12.27.56:733][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2015.05.13-12.27.58:354][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.13-12.27.58:356][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.13-12.27.58:464][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.13-12.27.58:560][  0]LogLoad: Full Startup: 139.72 seconds (BP compile: 1.03 seconds)
+[2015.05.13-12.27.58:653][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.13-12.27.59:886][  0]LogRenderer:Warning: Reallocating scene render targets to support 704x416 (Frame:2).
+[2015.05.13-12.28.03:424][  7]LogAssetRegistry: Asset discovery search completed in 43.4560 seconds
+[2015.05.13-12.34.09:438][446]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.05.13-12.34.11:555][503]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.05.13-12.34.24:258][873]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.05.13-12.34.24:670][873]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.05.13-12.34.24:725][873]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.05.13-12.34.24:937][873]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.05.13-12.34.24:971][873]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.05.13-12.34.25:091][873]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.05.13-12.34.25:098][873]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.05.13-12.34.25:107][873]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.05.13-12.34.25:109][873]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.05.13-12.34.25:118][873]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.05.13-12.34.25:418][873]LoadErrors:Error: Error Failed import for Material
+[2015.05.13-12.34.26:545][873]LoadErrors:Error: Error Failed import for Material
+[2015.05.13-12.34.26:963][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-12.34.27:219][873]LogSavePackage: Save=229.827255ms
+[2015.05.13-12.34.27:219][873]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassE9603216432FA17B7EFFD2AB0C9DD949.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-12.34.27:232][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/StarterContent/Materials/M_Glass.uasset" SILENT=true
+[2015.05.13-12.34.28:746][873]LogSavePackage: Save=25.817650ms
+[2015.05.13-12.34.28:746][873]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass36E6180E4FBFF11225FC6C9648B6E608.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/StarterContent/Materials/M_Glass.uasset'
+[2015.05.13-12.34.29:881][890]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.13-12.34.33:443][962]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.34.33:523][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.13-12.34.34:164][962]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.34.34:166][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.13-12.34.34:166][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.13-12.34.34:166][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.13-12.34.34:166][962]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.13-12.34.34:656][962]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.34.34:670][962]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.34.34:763][962]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.34.49:520][ 64]LogParticles:Warning: InitializeSystem called on an unregistered component. Template=/Game/Partices/P_Sparks.P_Sparks Component=/Game/Tuts.Tuts:PersistentLevel.P_Sparks_2.ParticleSystemComponent0
+[2015.05.13-12.34.49:651][ 64]Cmd: MAP LOAD FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2015.05.13-12.34.49:652][ 64]LightingResults: New page: Lighting Build
+[2015.05.13-12.34.49:689][ 64]LoadErrors: New page: Loading map: Tuts.umap
+[2015.05.13-12.34.49:690][ 64]MapCheck: New page: Map Check
+[2015.05.13-12.34.49:690][ 64]LightingResults: New page: Lighting Build
+[2015.05.13-12.34.49:716][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069ECBFC4A0
+[2015.05.13-12.34.49:967][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.13-12.34.50:029][ 64]LogAIModule: Creating AISystem for world Tuts
+[2015.05.13-12.34.50:082][ 64]Cmd: MAP CHECKDEP
+[2015.05.13-12.34.50:082][ 64]MapCheck: New page: Tuts - May 14, 2015, 8:34:50 AM
+[2015.05.13-12.34.50:221][ 64]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.732ms to complete.
+[2015.05.13-12.34.50:222][ 64]LogFileHelpers: Loading map 'Tuts' took 0.573
+[2015.05.13-12.34.50:265][ 64]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.05.13-12.34.50:265][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.05.13-12.34.50:265][ 64]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 110 instructions
+[2015.05.13-12.34.50:265][ 64]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.34.50:265][ 64]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.34.53:670][ 96]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-12.35.26:367][689]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.35.26:392][689]LogMaterial: 0.000180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.35.26:490][689]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.35.33:373][710]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.05.13-12.35.33:373][710]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.05.13-12.35.33:373][710]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 110 instructions
+[2015.05.13-12.35.33:373][710]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.35.33:373][710]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.35.44:027][109]LogUnrealMath: Expression Error : Unrecognized Operator
+[2015.05.13-12.35.44:046][109]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.35.44:058][109]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.35.44:127][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.35.55:159][437]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.35.55:177][437]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.35.55:233][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.36.02:012][677]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.36.05:562][677]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.36.05:642][677]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.36.05:761][677]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.36.05:864][677]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.36.05:945][677]LogMaterial: 0.061083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.36.14:594][810]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.13-12.36.14:594][810]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.13-12.36.14:897][810]LogPlayLevel: PIE:  Blueprint regeneration took 303 ms (1 blueprints)
+[2015.05.13-12.36.14:923][810]PIE: New page: PIE session: Tuts (May 14, 2015, 8:36:14 AM)
+[2015.05.13-12.36.14:970][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045058s)
+[2015.05.13-12.36.14:971][810]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2015.05.13-12.36.14:971][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.046684s)
+[2015.05.13-12.36.15:515][810]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.13-12.36.15:557][810]LogAIModule: Creating AISystem for world Tuts
+[2015.05.13-12.36.15:576][810]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.13-22.36.15
+[2015.05.13-12.36.15:578][810]LogWorld: Bringing up level for play took: 0.019173
+[2015.05.13-12.36.15:757][810]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 1.639
+[2015.05.13-12.36.33:435][989]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069EF0C9800
+[2015.05.13-12.36.34:928][  2]MaterialEditorStats: Info Base pass shader with static lighting: 120 instructions
+[2015.05.13-12.36.34:928][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.05.13-12.36.34:928][  2]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 136 instructions
+[2015.05.13-12.36.34:928][  2]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.36.34:928][  2]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.36.52:533][325]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.36.52:552][325]LogMaterial: 0.000239 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.36.52:607][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.37.14:431][187]MaterialEditorStats: Info Base pass shader with static lighting: 93 instructions
+[2015.05.13-12.37.14:431][187]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 72 instructions
+[2015.05.13-12.37.14:432][187]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 110 instructions
+[2015.05.13-12.37.14:432][187]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.37.14:432][187]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.37.16:688][295]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.37.18:971][295]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.37.19:013][295]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.37.19:081][295]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.37.19:202][295]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.37.19:254][295]LogMaterial: 0.029494 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.37.51:858][579]MaterialEditorStats: Info Base pass shader with static lighting: 120 instructions
+[2015.05.13-12.37.51:858][579]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.05.13-12.37.51:858][579]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 136 instructions
+[2015.05.13-12.37.51:858][579]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.37.51:858][579]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.38.09:465][776]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.13-12.38.09:465][776]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.13-12.38.09:654][776]LogPlayLevel: PIE:  Blueprint regeneration took 189 ms (1 blueprints)
+[2015.05.13-12.38.09:654][776]PIE: New page: PIE session: Tuts (May 14, 2015, 8:38:09 AM)
+[2015.05.13-12.38.09:685][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030656s)
+[2015.05.13-12.38.09:688][776]LogPlayLevel: PIE: World Init took: (0.002994s)
+[2015.05.13-12.38.09:689][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.034007s)
+[2015.05.13-12.38.09:728][776]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.13-12.38.09:731][776]LogAIModule: Creating AISystem for world Tuts
+[2015.05.13-12.38.09:743][776]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.13-22.38.09
+[2015.05.13-12.38.09:744][776]LogWorld: Bringing up level for play took: 0.012693
+[2015.05.13-12.38.09:748][776]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts -0.37
+[2015.05.13-12.38.09:809][777]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078739 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_5'
+[2015.05.13-12.38.15:865][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069EEEAB240
+[2015.05.13-12.38.20:277][989]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.20:287][989]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.20:343][989]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.29:355][307]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.29:376][307]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.29:425][307]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.32:135][398]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.32:158][398]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.32:217][398]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.49:280][982]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.05.13-12.38.49:280][982]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.05.13-12.38.49:280][982]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 108 instructions
+[2015.05.13-12.38.49:280][982]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2015.05.13-12.38.49:280][982]MaterialEditorStats: Info Texture samplers: 8/16
+[2015.05.13-12.38.51:223][ 69]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.51:231][ 69]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.51:256][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.51:333][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.38.54:750][186]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.54:769][186]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.54:843][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.54:849][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.38.58:473][319]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.38.58:494][319]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.38.58:586][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.38.58:591][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.39.13:846][882]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.39.17:416][882]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.39.17:482][882]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.39.17:586][882]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.39.17:681][882]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.39.17:735][882]LogMaterial: 0.030940 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.39.38:930][100]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-12.39.38:970][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.13-12.39.39:250][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-12.39.39:274][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-12.39.39:304][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-12.39.39:309][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.13-12.39.39:309][100]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.13-12.39.39:310][100]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.05.13-12.39.39:310][100]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.05.13-12.39.39:317][100]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-12.39.39:327][100]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.39.39:374][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-12.39.39:380][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-12.39.39:420][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-12.39.44:805][288]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-12.39.44:823][288]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-12.39.44:832][288]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.39.44:884][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-12.39.44:933][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-12.39.44:954][288]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-12.39.56:406][484]MaterialEditorStats: Info Base pass shader with static lighting: 124 instructions
+[2015.05.13-12.39.56:406][484]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 103 instructions
+[2015.05.13-12.39.56:407][484]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 140 instructions
+[2015.05.13-12.39.56:407][484]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.39.56:407][484]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.40.07:050][669]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.13-12.40.09:550][696]Cmd: TRANSACTION UNDO
+[2015.05.13-12.40.09:550][696]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.13-12.40.09:701][696]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.09:711][696]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.09:736][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.09:752][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.16:082][847]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.16:104][847]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.16:174][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.16:202][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.16:982][874]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.17:002][874]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.17:106][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.17:112][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.20:471][994]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.20:493][994]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.20:546][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.20:553][994]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.22:353][ 52]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.22:372][ 52]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.22:401][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.22:407][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.25:766][166]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.25:787][166]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.25:918][166]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.40.25:924][166]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.40.26:891][201]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.40.30:608][201]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.30:689][201]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.30:749][201]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.30:824][201]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.40.30:877][201]LogMaterial: 0.030360 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.40.54:462][329]MaterialEditorStats: Info Base pass shader with static lighting: 124 instructions
+[2015.05.13-12.40.54:462][329]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 103 instructions
+[2015.05.13-12.40.54:462][329]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 140 instructions
+[2015.05.13-12.40.54:463][329]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.40.54:463][329]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.41.36:624][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor _8)
+[2015.05.13-12.41.43:192][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-12.41.46:730][691]Cmd: TRANSACTION UNDO
+[2015.05.13-12.41.46:730][691]LogEditorTransaction: Undo Clicking on Actors
+[2015.05.13-12.41.46:809][691]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.46:816][691]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.46:872][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.46:900][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.49:847][801]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.49:864][801]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.49:901][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.49:906][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.51:048][843]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.51:063][843]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.51:110][843]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.51:130][843]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.51:544][858]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.51:561][858]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.51:584][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.51:619][858]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.54:617][976]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.54:635][976]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.54:698][976]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.54:751][976]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.57:211][ 61]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.57:227][ 61]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.57:288][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.57:293][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.58:051][ 89]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.58:071][ 89]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.58:149][ 89]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.58:200][ 89]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.41.59:431][133]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.41.59:447][133]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.41.59:547][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.41.59:552][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.02:270][231]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.02:288][231]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.02:330][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.42.02:335][231]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.04:858][330]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.04:877][330]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.04:904][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.42.04:922][330]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.07:362][421]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.07:381][421]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.07:442][421]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.42.07:463][421]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.12:841][629]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.12:860][629]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.12:920][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.42.12:956][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.19:586][881]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.19:604][881]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.19:639][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.42.19:683][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.42.20:361][907]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.42.23:811][907]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.23:890][907]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.24:002][907]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.24:101][907]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.42.24:157][907]LogMaterial: 0.033699 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.42.28:851][  0]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.05.13-12.42.30:155][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.13-12.43.00:573][348]MaterialEditorStats: Info Base pass shader with static lighting: 124 instructions
+[2015.05.13-12.43.00:573][348]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 103 instructions
+[2015.05.13-12.43.00:573][348]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 140 instructions
+[2015.05.13-12.43.00:573][348]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.43.00:573][348]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.43.03:686][385]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.13-12.43.18:246][693]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.18:256][693]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.43.18:285][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.43.18:289][693]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.43.24:446][917]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.24:465][917]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.43.24:493][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.43.24:534][917]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.43.26:816][997]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.26:836][997]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.43.26:885][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.43.26:904][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.43.28:283][ 48]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.43.31:965][ 48]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.32:047][ 48]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.43.32:120][ 48]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.32:193][ 48]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.43.32:250][ 48]LogMaterial: 0.032990 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.43.57:686][237]MaterialEditorStats: Info Base pass shader with static lighting: 124 instructions
+[2015.05.13-12.43.57:686][237]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 103 instructions
+[2015.05.13-12.43.57:686][237]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 140 instructions
+[2015.05.13-12.43.57:686][237]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.43.57:686][237]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.45.04:422][436]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069F1532160
+[2015.05.13-12.45.04:497][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.13-12.45.05:135][436]LogSavePackage: Save=567.580322ms
+[2015.05.13-12.45.05:135][436]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto1AFC0880744DC215DE2450981ED141663.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto1.umap'
+[2015.05.13-12.45.05:250][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 1.058
+[2015.05.13-12.45.05:250][436]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.058
+[2015.05.13-12.45.05:285][436]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Glass] ([1] browsable assets)...
+[2015.05.13-12.45.05:343][436]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Glass.M_Glass]
+[2015.05.13-12.45.05:344][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Glass]
+[2015.05.13-12.45.05:345][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/M_Glass_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.05.13-12.45.05:586][436]LogSavePackage: Save=211.040787ms
+[2015.05.13-12.45.05:588][436]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass_Auto1E27FAA764EB4FAA83A62B6A66E6AEEEA.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/M_Glass_Auto1.uasset'
+[2015.05.13-12.45.05:619][436]LogFileHelpers: Auto-saving content packages took 0.368
+[2015.05.13-12.52.08:449][250]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.08:462][250]LogMaterial: 0.000118 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.08:541][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.08:547][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.10:048][308]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.52.13:667][308]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.13:747][308]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.13:811][308]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.13:904][308]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.13:956][308]LogMaterial: 0.028909 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.15:765][383]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.15:782][383]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.15:807][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.15:812][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.23:976][568]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.23:995][568]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.24:022][568]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.24:027][568]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.25:558][621]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.25:577][621]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.25:661][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.25:667][621]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.26:938][669]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.26:957][669]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.26:985][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.26:991][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.30:114][777]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.52.30:131][777]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.52.30:159][777]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.52.30:203][777]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.52.58:701][866]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-12.53.02:216][866]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.53.02:294][866]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.53.02:351][866]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.53.02:421][866]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.53.02:474][866]LogMaterial: 0.030264 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.54.29:173][817]MaterialEditorStats: Info Base pass shader with static lighting: 122 instructions
+[2015.05.13-12.54.29:174][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2015.05.13-12.54.29:174][817]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 138 instructions
+[2015.05.13-12.54.29:174][817]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.54.29:174][817]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.55.09:412][448]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.09:422][448]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.09:517][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.55.09:540][448]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.55.11:940][529]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.11:960][529]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.11:986][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.55.12:041][529]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.55.20:064][801]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.20:083][801]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.20:110][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.55.20:132][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.55.25:046][975]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.25:067][975]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.25:146][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.55.25:153][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.55.27:579][ 68]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.27:599][ 68]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.27:656][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.55.27:662][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.55.29:110][123]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-12.55.32:725][123]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.32:807][123]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.32:943][123]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.33:016][123]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.55.33:073][123]LogMaterial: 0.033688 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.55.53:019][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-12.55.53:247][123]LogSavePackage: Save=180.156509ms
+[2015.05.13-12.55.53:247][123]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass0429E3B04E47CF4630E735A599B517A5.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-12.55.53:257][123]MaterialEditorStats: Info Base pass shader with static lighting: 122 instructions
+[2015.05.13-12.55.53:257][123]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2015.05.13-12.55.53:257][123]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 138 instructions
+[2015.05.13-12.55.53:257][123]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.55.53:257][123]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.56.05:937][535]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.56.05:948][535]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.56.05:974][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.56.05:988][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.56.08:752][640]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.56.08:771][640]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.56.08:811][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.56.08:851][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.56.30:195][470]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-12.56.33:429][470]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.56.33:481][470]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.56.33:563][470]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.56.33:683][470]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.56.33:737][470]LogMaterial: 0.031178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.56.49:285][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-12.56.49:685][470]LogSavePackage: Save=364.271210ms
+[2015.05.13-12.56.49:686][470]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassC20F89804798DD651E8D0F991B289378.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-12.56.49:702][470]MaterialEditorStats: Info Base pass shader with static lighting: 122 instructions
+[2015.05.13-12.56.49:702][470]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2015.05.13-12.56.49:702][470]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 138 instructions
+[2015.05.13-12.56.49:702][470]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.56.49:702][470]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-12.57.09:249][959]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.09:259][959]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.09:305][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.09:311][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.13:178][ 87]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.13:198][ 87]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.13:229][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.13:268][ 87]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.19:835][284]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.19:856][284]LogMaterial: 0.000294 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.19:883][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.19:949][284]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.22:296][361]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.22:316][361]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.22:342][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.22:348][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.24:606][433]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.24:629][433]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.24:714][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.24:731][433]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.25:661][461]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.25:682][461]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.25:723][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.25:735][461]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.26:449][484]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.26:472][484]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.26:542][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.26:576][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.26:874][494]LogEditorTransaction: Undo Edit G
+[2015.05.13-12.57.27:008][494]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.27:080][494]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.27:100][494]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.27:165][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.27:173][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.32:209][650]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.32:227][650]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.32:255][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.32:261][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.46:645][110]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.46:663][110]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.46:688][110]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.46:694][110]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.54:884][384]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.54:902][384]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.54:926][384]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-12.57.54:932][384]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.05.13-12.57.55:788][414]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-12.57.59:455][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.59:538][414]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.57.59:605][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.59:681][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-12.57.59:736][414]LogMaterial: 0.029926 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-12.58.18:133][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-12.58.18:341][414]LogSavePackage: Save=171.392105ms
+[2015.05.13-12.58.18:341][414]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassD771A8134D6B528F3AA0D6903E3F61DF.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-12.58.18:350][414]MaterialEditorStats: Info Base pass shader with static lighting: 122 instructions
+[2015.05.13-12.58.18:350][414]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 101 instructions
+[2015.05.13-12.58.18:350][414]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 138 instructions
+[2015.05.13-12.58.18:350][414]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-12.58.18:351][414]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-13.01.03:907][169]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.03:908][169]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Glass for platform PCD3D_SM4, Default Material will be used in game.
+[2015.05.13-13.01.03:908][169]LogMaterial:Warning: 	Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.05.13-13.01.03:908][169]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.01.03:970][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.01.03:976][169]MaterialEditorStats:Error: Error [SM4] Function Blend_ColorBurn: Missing function input 'Blend'
+[2015.05.13-13.01.08:258][306]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.08:277][306]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.01.08:305][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.01.10:182][359]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.10:202][359]LogMaterial: 0.000340 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.01.10:260][359]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.01.11:294][393]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-13.01.15:183][393]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.15:266][393]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.01.15:342][393]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.15:455][393]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.01.15:514][393]LogMaterial: 0.035851 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.03.32:982][133]MaterialEditorStats: Info Base pass shader with static lighting: 121 instructions
+[2015.05.13-13.03.32:982][133]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 100 instructions
+[2015.05.13-13.03.32:982][133]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2015.05.13-13.03.32:983][133]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.03.32:983][133]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-13.04.34:119][201]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.05.13-13.04.44:374][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-13.04.53:013][373]Cmd: TRANSACTION UNDO
+[2015.05.13-13.04.53:013][373]LogEditorTransaction: Undo Replace component used material
+[2015.05.13-13.04.53:272][373]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.04.53:286][373]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.04.53:353][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.04.59:610][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.13-13.05.00:809][406]LogSavePackage: Save=1045.453857ms
+[2015.05.13-13.05.00:809][406]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto2DEB3E74F4F3BEC34E62522AF15C2F276.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto2.umap'
+[2015.05.13-13.05.00:905][406]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 1.524
+[2015.05.13-13.05.00:905][406]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.524
+[2015.05.13-13.05.00:957][406]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_Glass] ([1] browsable assets)...
+[2015.05.13-13.05.01:023][406]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_Glass.M_Glass]
+[2015.05.13-13.05.01:023][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_Glass]
+[2015.05.13-13.05.01:029][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/M_Glass_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.05.13-13.05.01:676][406]LogSavePackage: Save=569.978516ms
+[2015.05.13-13.05.01:679][406]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass_Auto2A2E8001042D391B9827FA1B52AE98180.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/M_Glass_Auto2.uasset'
+[2015.05.13-13.05.01:755][406]LogFileHelpers: Auto-saving content packages took 0.849
+[2015.05.13-13.05.17:810][567]MaterialEditorStats: Info Base pass shader with static lighting: 94 instructions
+[2015.05.13-13.05.17:810][567]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.05.13-13.05.17:810][567]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 111 instructions
+[2015.05.13-13.05.17:810][567]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.05.17:810][567]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-13.05.52:308][891]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.05.52:321][891]LogMaterial: 0.000139 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.05.52:347][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.05.52:418][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.05.52:447][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.05.52:478][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.06.37:143][328]MaterialEditorStats: Info Base pass shader with static lighting: 94 instructions
+[2015.05.13-13.06.37:143][328]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.05.13-13.06.37:143][328]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 111 instructions
+[2015.05.13-13.06.37:143][328]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.06.37:143][328]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-13.07.16:599][696]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.07.19:210][696]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.07.19:258][696]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.07.19:396][696]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.07.19:477][696]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.07.19:545][696]LogMaterial: 0.034866 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.07.38:059][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.07.38:382][696]LogSavePackage: Save=281.548920ms
+[2015.05.13-13.07.38:382][696]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassFD01B01841888B333A76709CD87E4396.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.07.38:391][696]MaterialEditorStats: Info Base pass shader with static lighting: 121 instructions
+[2015.05.13-13.07.38:391][696]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 100 instructions
+[2015.05.13-13.07.38:392][696]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 137 instructions
+[2015.05.13-13.07.38:392][696]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.07.38:392][696]MaterialEditorStats: Info Texture samplers: 9/16
+[2015.05.13-13.08.15:761][868]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.05.13-13.08.33:969][147]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.08.33:980][147]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.08.34:061][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.08.34:078][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.08.51:510][566]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.08.51:530][566]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.08.51:555][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.08.51:562][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.08.51:568][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.08.51:657][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.08.51:663][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.08.51:669][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.08.56:785][718]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.08.56:805][718]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.08.56:833][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.08.56:841][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.08.56:847][718]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.08.59:822][811]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.09.03:667][811]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.03:756][811]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.09.03:887][811]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.03:991][811]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.04:058][811]LogMaterial: 0.037779 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.09.23:971][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.09.24:348][811]LogSavePackage: Save=338.419769ms
+[2015.05.13-13.09.24:348][811]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassE3D501FD4A3926EE02DA629FD52AE0F8.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.09.24:356][811]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.09.24:357][811]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.09.24:357][811]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.09.24:357][811]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.09.24:357][811]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.09.37:913][172]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.37:928][172]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.09.37:955][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.09.38:010][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.09.38:017][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.09.39:446][213]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.39:465][213]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.09.39:494][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.09.39:500][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.09.39:506][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.09.41:563][280]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.09.45:276][280]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.45:361][280]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.09.45:438][280]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.45:511][280]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.09.45:568][280]LogMaterial: 0.032728 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.10.04:982][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.10.05:342][280]LogSavePackage: Save=323.030029ms
+[2015.05.13-13.10.05:342][280]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass8E953FCD445F7B162AA5AE82F7DC2EC6.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.10.05:350][280]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.10.05:350][280]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.10.05:350][280]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.10.05:350][280]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.10.05:350][280]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.10.53:442][ 17]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.10.53:457][ 17]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.10.53:483][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.10.53:516][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.10.53:574][ 17]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.11.05:465][370]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.11.05:485][370]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.11.05:513][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.11.05:532][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.11.05:540][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.11.07:835][443]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.11.11:580][443]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.11.11:663][443]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.11.11:740][443]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.11.11:820][443]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.11.11:884][443]LogMaterial: 0.034122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.11.32:997][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.11.33:279][443]LogSavePackage: Save=248.338745ms
+[2015.05.13-13.11.33:279][443]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass2E45C39D44E4681CA9CF2D9585F1A61D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.11.33:287][443]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.11.33:287][443]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.11.33:287][443]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.11.33:287][443]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.11.33:287][443]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.13.38:651][687]Cmd: TRANSACTION UNDO
+[2015.05.13-13.13.38:651][687]LogEditorTransaction: Undo Create Pin Link
+[2015.05.13-13.13.38:667][687]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.38:729][687]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.38:750][687]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.13.38:793][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.13.38:799][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.13.38:805][687]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.13.39:661][708]Cmd: TRANSACTION UNDO
+[2015.05.13-13.13.39:661][708]LogEditorTransaction: Undo Material Editor: Delete
+[2015.05.13-13.13.39:682][708]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.39:751][708]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.39:773][708]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.13.39:799][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.13.39:805][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.13.39:811][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.13.50:062][ 42]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.50:082][ 42]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.13.50:110][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.13.50:152][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.13.50:157][ 42]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.13.55:542][217]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.55:563][217]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.13.55:587][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.13.55:631][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.13.55:638][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.13.57:184][265]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.13.57:205][265]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.13.57:255][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.13.57:262][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.13.57:279][265]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.14.00:266][364]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.14.00:286][364]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.14.00:312][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.14.00:320][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.14.00:327][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.14.03:776][482]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.14.07:560][482]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.14.07:643][482]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.14.07:714][482]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.14.07:793][482]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.14.07:853][482]LogMaterial: 0.032603 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.14.26:893][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.14.27:196][482]LogSavePackage: Save=264.369080ms
+[2015.05.13-13.14.27:196][482]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassE7490A044ED711E530ADB98860306CDE.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.14.27:205][482]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.14.27:205][482]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.14.27:205][482]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.14.27:205][482]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.14.27:205][482]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.16.11:910][482]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.11:921][482]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.11:950][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.16.12:001][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.16.12:008][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.16.16:095][600]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.16:117][600]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.20:214][712]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.20:234][712]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.20:293][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.16.20:318][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.16.20:347][712]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.16.22:334][772]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.22:354][772]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.22:379][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.16.22:385][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.16.22:426][772]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.16.25:546][880]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.25:568][880]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.25:594][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.16.25:601][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.16.25:681][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.16.32:866][132]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.32:885][132]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.32:910][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.16.32:915][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.16.32:922][132]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.16.33:686][158]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.16.37:609][158]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.37:697][158]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.37:817][158]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.37:902][158]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.16.37:966][158]LogMaterial: 0.035918 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.16.54:289][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.16.54:680][158]LogSavePackage: Save=356.684937ms
+[2015.05.13-13.16.54:680][158]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass4FD13D36468BB8635B8BA2B384632C56.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.16.54:690][158]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.16.54:690][158]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.16.54:690][158]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.16.54:690][158]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.16.54:690][158]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.19.44:185][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-13.19.48:631][ 23]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.19.48:656][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.13-13.19.48:836][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.19.48:839][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.19.48:842][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.19.48:845][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.13-13.19.48:846][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.05.13-13.19.48:846][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.05.13-13.19.48:846][ 23]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.05.13-13.19.48:851][ 23]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.19.48:860][ 23]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.19.48:889][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.19.48:896][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.19.48:903][ 23]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.19.55:094][209]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.19.55:113][209]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.19.55:124][209]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.19.55:147][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.19.55:154][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.19.55:206][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.19.58:834][323]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.19.58:844][323]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.19.58:870][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.19.58:883][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.19.58:890][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.19.59:795][353]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 48 instructions
+[2015.05.13-13.19.59:796][353]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.19.59:796][353]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.20.03:774][479]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.13-13.20.06:606][479]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.20.06:651][479]LogMaterial: 0.000175 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.20.06:719][479]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.20.06:761][479]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.20.06:806][479]LogMaterial: 0.033306 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.20.10:402][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.13-13.20.10:705][479]LogSavePackage: Save=244.238144ms
+[2015.05.13-13.20.10:705][479]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat626C50424735F4A9FB696798664BA778.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.13-13.20.10:777][479]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.05.13-13.20.10:777][479]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.20.10:777][479]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.13-13.20.13:626][548]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor _8)
+[2015.05.13-13.20.15:049][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.13-13.20.15:697][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-13.20.51:409][484]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.20.51:414][484]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.20.51:443][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.20.51:449][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.20.51:457][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.20.53:623][556]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.20.53:634][556]LogMaterial: 0.000160 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.20.53:718][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.20.53:725][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.20.53:731][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.20.55:633][613]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.20.55:646][613]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.20.55:673][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.20.55:680][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.20.55:686][613]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.20.59:889][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.13-13.20.59:890][754]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.20.59:890][754]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.21.53:086][940]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.13-13.21.55:742][940]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.21.55:763][940]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.21.55:946][940]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.21.55:989][940]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.21.56:039][940]LogMaterial: 0.036385 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.22.00:734][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.13-13.22.01:040][940]LogSavePackage: Save=263.378265ms
+[2015.05.13-13.22.01:040][940]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat8C1A925C451FD62D4E7D048DEFDD7253.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.13-13.22.01:053][940]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.05.13-13.22.01:053][940]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.22.01:053][940]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.13-13.22.15:622][257]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.22.15:630][257]LogMaterial: 0.000248 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.22.15:659][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.22.15:726][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.22.15:733][257]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.22.19:888][392]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.13-13.22.19:888][392]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.22.19:888][392]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.22.27:725][671]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.22.27:733][671]LogMaterial: 0.000213 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.22.27:761][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.22.27:768][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.22.27:774][671]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.22.31:945][809]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.13-13.22.31:946][809]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.22.31:946][809]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.22.39:689][107]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.13-13.22.42:361][107]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.22.42:379][107]LogMaterial: 0.000123 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.22.42:440][107]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.22.42:481][107]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.22.42:530][107]LogMaterial: 0.034901 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.22.46:427][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.13-13.22.46:750][107]LogSavePackage: Save=283.323608ms
+[2015.05.13-13.22.46:750][107]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat15CAB5414FE454E72CDC0EA1B6022E35.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.13-13.22.46:764][107]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.05.13-13.22.46:764][107]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.22.46:764][107]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.13-13.23.05:075][482]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.23.05:082][482]LogMaterial: 0.000183 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.23.05:107][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.23.05:113][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.23.05:167][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.23.12:548][721]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.13-13.23.12:548][721]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.23.12:549][721]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.23.30:383][437]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.23.30:391][437]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.23.30:416][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.23.30:423][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.23.30:430][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.23.34:120][557]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2015.05.13-13.23.34:120][557]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.23.34:120][557]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-13.23.39:759][766]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.13-13.23.42:410][766]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.23.42:431][766]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.23.42:490][766]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.23.42:532][766]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.23.42:582][766]LogMaterial: 0.036565 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.23.46:648][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.13-13.23.46:949][766]LogSavePackage: Save=255.945953ms
+[2015.05.13-13.23.46:949][766]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_MatEBCB6A414C3F8EE2409213B359C20C86.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.13-13.23.46:961][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 71 instructions
+[2015.05.13-13.23.46:961][766]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.23.46:962][766]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.13-13.24.20:523][559]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.24.20:530][559]LogMaterial: 0.000220 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.24.20:555][559]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.24.20:561][559]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2015.05.13-13.24.20:568][559]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2015.05.13-13.24.23:794][657]LogMaterialEditor: Saving and Compiling material c_usa_secret_service_head1_c_Mat
+[2015.05.13-13.24.27:737][657]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.05.13-13.24.27:766][657]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.24.27:828][657]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.24.27:868][657]LogMaterial: Missing cached shader map for material c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.24.27:918][657]LogMaterial: 0.035875 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.24.32:060][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/c_usa_secret_service_head1_c_Mat" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset" SILENT=true
+[2015.05.13-13.24.32:360][657]LogSavePackage: Save=258.823944ms
+[2015.05.13-13.24.32:360][657]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/c_usa_secret_service_head1_c_Mat1D8CCD114E8F89CA9AD05BB72AE793AE.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/c_usa_secret_service_head1_c_Mat.uasset'
+[2015.05.13-13.24.32:372][657]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.05.13-13.24.32:372][657]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.24.32:372][657]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.05.13-13.24.57:860][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.13-13.24.58:599][668]LogSavePackage: Save=673.786682ms
+[2015.05.13-13.24.58:599][668]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto3D9DBCD8D44C99AFE2E70FE9F76ECA497.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto3.umap'
+[2015.05.13-13.24.58:673][668]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.995
+[2015.05.13-13.24.58:673][668]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.995
+[2015.05.13-13.26.09:790][449]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.26.09:827][449]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.26.09:859][449]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.26.09:870][449]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.26.09:880][449]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.26.10:618][471]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.26.14:787][471]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.26.14:879][471]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.26.14:946][471]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.26.15:028][471]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.26.15:086][471]LogMaterial: 0.032180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.26.32:555][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.26.32:880][471]LogSavePackage: Save=281.915833ms
+[2015.05.13-13.26.32:880][471]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_Glass3EB855124636B3C51F7379B77391542B.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.26.32:889][471]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.26.32:890][471]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.26.32:890][471]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.26.32:890][471]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.26.32:890][471]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.26.54:967][187]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.05.13-13.28.05:061][441]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.28.05:075][441]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.28.05:100][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.28.05:106][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.28.05:112][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.28.19:446][927]LogMaterialEditor: Applying material M_Glass
+[2015.05.13-13.28.23:543][927]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.28.23:634][927]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.28.23:704][927]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.28.23:785][927]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.28.23:845][927]LogMaterial: 0.034682 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.29.10:482][581]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.05.13-13.29.10:482][581]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 108 instructions
+[2015.05.13-13.29.10:482][581]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 145 instructions
+[2015.05.13-13.29.10:482][581]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.29.10:482][581]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.29.31:714][777]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.05.13-13.29.33:105][791]Cmd: DELETE
+[2015.05.13-13.29.33:105][791]Cmd: ACTOR DELETE
+[2015.05.13-13.29.33:422][791]LogEditorActor: Deleted Actor: SpotLight
+[2015.05.13-13.29.33:515][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006992106B60
+[2015.05.13-13.29.33:523][791]LogEditorActor: Deleted 1 Actors (0.144 secs)
+[2015.05.13-13.29.37:688][836]MapCheck: New page: Map Check
+[2015.05.13-13.29.37:840][836]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.13-13.29.37:860][836]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.13-13.29.38:378][836]LightingResults: New page: Lighting Build - May 14, 2015, 9:29:38 AM
+[2015.05.13-13.29.53:000][836]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.13-13.29.53:041][836]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.13-13.29.53:041][836]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.13-13.29.53:041][836]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.13-13.29.53:041][836]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.13-13.29.53:041][836]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.13-13.29.57:316][836]LogEditorBuildUtils: Build time 0:00:19
+[2015.05.13-13.29.57:763][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2015.05.13-13.29.57:792][841]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Material_002, compiling. 
+[2015.05.13-13.29.58:012][844]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial2, compiling. 
+[2015.05.13-13.29.58:019][844]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer NewMaterial2, compiling. 
+[2015.05.13-13.29.58:096][845]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CobbleStone_Pebble, compiling. 
+[2015.05.13-13.29.58:102][845]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CobbleStone_Pebble, compiling. 
+[2015.05.13-13.29.58:277][847]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.29.58:284][847]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_head1_c_Mat, compiling. 
+[2015.05.13-13.29.58:338][848]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_torso_shield_c_Mat, compiling. 
+[2015.05.13-13.29.58:344][848]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_torso_shield_c_Mat, compiling. 
+[2015.05.13-13.29.58:419][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gear3_c_Mat, compiling. 
+[2015.05.13-13.29.58:425][849]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gear3_c_Mat, compiling. 
+[2015.05.13-13.29.58:497][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gear2_c_Mat, compiling. 
+[2015.05.13-13.29.58:504][850]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gear2_c_Mat, compiling. 
+[2015.05.13-13.29.58:582][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_legs_c_Mat, compiling. 
+[2015.05.13-13.29.58:610][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_legs_c_Mat, compiling. 
+[2015.05.13-13.29.58:687][852]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_torso_c_Mat, compiling. 
+[2015.05.13-13.29.58:723][852]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_torso_c_Mat, compiling. 
+[2015.05.13-13.29.58:783][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gloves_c_Mat, compiling. 
+[2015.05.13-13.29.58:791][853]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer c_usa_secret_service_gloves_c_Mat, compiling. 
+[2015.05.13-13.29.58:832][854]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2015.05.13-13.29.58:884][854]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2015.05.13-13.30.04:125][856]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.05.13-13.30.10:643][877]Job has failed! Job executable didn't exit cleanly. Exit code: 1
+[2015.05.13-13.30.44:159][260]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.30.44:172][260]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.30.44:196][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.30.44:201][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.30.44:207][260]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.30.44:812][274]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.30.44:833][274]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.30.44:859][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.30.44:865][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.30.44:871][274]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.30.46:675][328]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.30.46:697][328]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.30.46:721][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.30.46:727][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.30.46:734][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.30.53:897][582]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.30.53:922][582]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.30.53:949][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.30.53:955][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.05.13-13.30.53:962][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.05.13-13.31.16:187][414]LogMaterialEditor: Saving and Compiling material M_Glass
+[2015.05.13-13.31.19:810][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.31.19:859][414]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.31.19:925][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.31.20:010][414]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.05.13-13.31.20:074][414]LogMaterial: 0.034739 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.31.36:228][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Glass" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset" SILENT=true
+[2015.05.13-13.31.36:534][414]LogSavePackage: Save=263.973969ms
+[2015.05.13-13.31.36:534][414]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/M_GlassF60E425A4D40B65B37551EA7EF150496.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/M_Glass.uasset'
+[2015.05.13-13.31.36:544][414]MaterialEditorStats: Info Base pass shader with static lighting: 128 instructions
+[2015.05.13-13.31.36:544][414]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 107 instructions
+[2015.05.13-13.31.36:544][414]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 144 instructions
+[2015.05.13-13.31.36:544][414]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-13.31.36:544][414]MaterialEditorStats: Info Texture samplers: 11/16
+[2015.05.13-13.32.06:192][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-13.32.08:426][877]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_shield_c_Mat, compiling. 
+[2015.05.13-13.32.08:452][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.13-13.32.08:618][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.32.08:622][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.13-13.32.08:622][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.05.13-13.32.08:622][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2015.05.13-13.32.08:622][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2015.05.13-13.32.08:626][877]LogMaterial: Missing cached shader map for material c_usa_secret_service_torso_shield_c_Mat, compiling. 
+[2015.05.13-13.32.08:632][877]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-13.32.08:657][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.05.13-13.32.17:180][148]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.13-13.32.17:180][148]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-13.32.17:180][148]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.13-13.34.59:463][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.13-13.35.00:238][651]LogSavePackage: Save=696.731018ms
+[2015.05.13-13.35.00:238][651]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto418F2425343DFF2EF8C208DB1DF8B06A2.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto4.umap'
+[2015.05.13-13.35.00:251][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.927
+[2015.05.13-13.35.00:251][651]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.927
+[2015.05.13-13.36.16:142][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.13-13.36.16:937][282]LogSavePackage: Save=698.141357ms
+[2015.05.13-13.36.16:937][282]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts56536F644560BB9E321888B390565A1E.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap'
+[2015.05.13-13.36.42:335][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Secret_Service_Model_1)
+[2015.05.13-13.36.51:464][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.13-13.36.51:464][771]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.13-13.36.51:983][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.05.13-13.36.51:983][792]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.05.13-14.20.08:300][309]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.05.13-14.20.13:750][365]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.05.13-14.30.21:822][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069BA55C180
+[2015.05.13-14.30.21:822][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069968B3060
+[2015.05.13-14.30.21:880][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.05.13-14.30.22:544][333]LogSavePackage: Save=457.821228ms
+[2015.05.13-14.30.22:544][333]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts_Auto57A047FF9458A507ECBC064AADA1A1987.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Tuts_Auto5.umap'
+[2015.05.13-14.30.22:571][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.778
+[2015.05.13-14.30.22:571][333]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.778
+[2015.05.13-18.12.38:641][ 94]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.05.13-18.12.41:609][125]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.13-18.12.43:902][145]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Partices'
+[2015.05.13-18.14.07:191][441]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\jbutl_000\Desktop\particle_cloud.png)
+[2015.05.13-18.14.07:271][441]0.000000 seconds to analyze Texture2D /Game/Partices/particle_cloud.particle_cloud
+
+[2015.05.13-18.14.07:271][441]LogTexture:Display: Building textures: particle_cloud (AutoDXT)
+[2015.05.13-18.14.07:657][441]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.05.13-18.14.07:658][441]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Partices'
+[2015.05.13-18.14.22:035][585]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Partices'
+[2015.05.13-18.14.30:000][666]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.40:986][768]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.41:046][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.14.41:108][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.14.41:111][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.14.41:111][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.14.41:111][768]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.14.41:111][768]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.14.41:114][768]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.41:119][768]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.14.41:147][768]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.14.43:549][831]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.13-18.14.43:549][831]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-18.14.43:549][831]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.13-18.14.43:988][833]LogMaterial: Missing cached shader map for material Mat_Sparks, compiling. 
+[2015.05.13-18.14.44:018][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.13-18.14.44:123][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.13-18.14.44:123][833]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.13-18.14.44:123][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2015.05.13-18.14.44:123][833]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2015.05.13-18.14.44:126][833]LogMaterial: Missing cached shader map for material Mat_Sparks, compiling. 
+[2015.05.13-18.14.44:130][833]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.14.47:670][972]MaterialEditorStats: Info Base pass shader without light map: 19 instructions
+[2015.05.13-18.14.47:670][972]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-18.14.47:670][972]MaterialEditorStats: Info Texture samplers: 3/16
+[2015.05.13-18.14.51:425][160]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.51:434][160]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.51:439][160]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.14.51:466][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.14.53:689][247]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
+[2015.05.13-18.14.53:689][247]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.05.13-18.14.53:689][247]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.05.13-18.14.56:519][376]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.56:532][376]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.14.56:540][376]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.14.56:567][376]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.15.08:594][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.05.13-18.15.08:594][832]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.05.13-18.15.08:594][832]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-18.15.08:595][832]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.13-18.15.27:246][756]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.15.27:257][756]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.15.27:288][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.15.35:174][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.15.35:174][ 51]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.15.36:020][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.15.36:020][ 82]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.15.40:166][125]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.05.13-18.15.40:166][125]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.05.13-18.15.40:166][125]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-18.15.40:166][125]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.13-18.15.46:768][404]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.15.46:778][404]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.15.46:808][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.15.48:494][462]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.15.48:512][462]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.15.48:538][462]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.16.04:347][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 26 instructions
+[2015.05.13-18.16.04:347][  4]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 62 instructions
+[2015.05.13-18.16.04:347][  4]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-18.16.04:347][  4]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.13-18.16.10:075][270]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.16.10:085][270]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.16.10:113][270]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.16.11:699][323]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.16.11:720][323]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.16.11:747][323]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.16.13:424][381]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.16.13:442][381]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.16.13:466][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.16.14:866][429]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.16.14:885][429]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.16.14:909][429]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.05.13-18.16.25:360][799]LogDialogs:Warning: Supressed: You need to select a mesh in the content browser to preview it.
+[2015.05.13-18.16.26:985][859]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.26:985][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.16.29:466][949]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.29:466][949]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.16.30:125][974]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.30:125][974]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.16.30:546][989]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2015.05.13-18.16.30:546][989]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 63 instructions
+[2015.05.13-18.16.30:546][989]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2015.05.13-18.16.30:546][989]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.05.13-18.16.30:661][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.30:661][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.16.31:304][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.31:305][ 25]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.16.32:247][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2015.05.13-18.16.32:247][ 69]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2015.05.13-18.24.11:473][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tuts' took 0.038
+[2015.05.13-18.24.11:507][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Partices/particle_cloud] ([1] browsable assets)...
+[2015.05.13-18.24.11:553][ 44]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Partices/particle_cloud.particle_cloud]
+[2015.05.13-18.24.11:553][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Partices/particle_cloud]
+[2015.05.13-18.24.12:640][ 44]LogSavePackage: Save=1079.220337ms
+[2015.05.13-18.24.12:642][ 44]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/particle_cloud_Auto6AD6DCB9D44878AB39E79ABA911080B73.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Partices/particle_cloud_Auto6.uasset'
+[2015.05.13-18.24.12:767][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Partices/Dust] ([1] browsable assets)...
+[2015.05.13-18.24.12:824][ 44]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Partices/Dust.Dust]
+[2015.05.13-18.24.12:824][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Partices/Dust]
+[2015.05.13-18.24.12:826][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/Dust" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Partices/Dust_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2015.05.13-18.24.13:267][ 44]LogSavePackage: Save=438.674255ms
+[2015.05.13-18.24.13:268][ 44]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Dust_Auto624CE10A14B50F47513CF4F92814101D1.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Autosaves/Game/Partices/Dust_Auto6.uasset'
+[2015.05.13-18.24.13:276][ 44]LogFileHelpers: Auto-saving content packages took 1.803
+[2015.05.13-18.41.22:348][420]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.05.13-18.41.24:414][434]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0564 seconds. Added 2 classes and 2 folders.
+[2015.05.13-18.41.24:594][434]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (234) 4 : computeMassAndInertia: Dynamic actor with illegal collision shapes
+[2015.05.13-18.41.24:594][434]LogPhysics:Warning: PHYSX: ..\..\PhysXExtensions\src\ExtRigidBodyExt.cpp (283) 4 : PxRigidBodyExt::updateMassAndInertia: Mass and inertia computation failed, setting mass to 1 and inertia to (1,1,1)
+[2015.05.13-18.41.35:365][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/P_Sparks" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset" SILENT=true
+[2015.05.13-18.41.35:613][769]LogSavePackage: Save=178.315109ms
+[2015.05.13-18.41.35:613][769]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/P_Sparks59173B1C4E12DA6D09055B9B093615A8.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset'
+[2015.05.13-18.41.47:248][919]Cmd: STAT FPS
+[2015.05.13-18.41.59:841][197]LogParticles:Warning: MaxCount =  527 for Emitter ParticleSpriteEmitter_0 (/Game/Partices/P_Sparks.P_Sparks)
+[2015.05.13-18.42.33:741][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/P_Sparks" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset" SILENT=true
+[2015.05.13-18.42.33:946][387]LogSavePackage: Save=178.079483ms
+[2015.05.13-18.42.33:946][387]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/P_Sparks8EAA9B4749D4E87594354A92230B71D4.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset'
+[2015.05.13-18.42.43:823][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/P_Sparks" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset" SILENT=true
+[2015.05.13-18.42.44:028][682]LogSavePackage: Save=176.184631ms
+[2015.05.13-18.42.44:028][682]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/P_Sparks38A30319480946BC37D04C89D6AC4C14.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset'
+[2015.05.13-18.43.05:946][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/P_Sparks" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset" SILENT=true
+[2015.05.13-18.43.06:271][378]LogSavePackage: Save=195.110077ms
+[2015.05.13-18.43.06:271][378]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/P_SparksAB0CF7BD4921A342FBA5059BA62E0B31.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/P_Sparks.uasset'
+[2015.05.13-18.43.10:043][437]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.13-18.43.10:043][437]LogPlayLevel: [PIE] Compiling Tuts before PIE...
+[2015.05.13-18.43.10:230][437]LogPlayLevel: PIE:  Blueprint regeneration took 187 ms (1 blueprints)
+[2015.05.13-18.43.10:231][437]PIE: New page: PIE session: Tuts (May 14, 2015, 2:43:10 PM)
+[2015.05.13-18.43.10:279][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046948s)
+[2015.05.13-18.43.10:280][437]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2015.05.13-18.43.10:280][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tuts.Tuts to /Game/UEDPIE_0_Tuts.Tuts (0.048120s)
+[2015.05.13-18.43.10:316][437]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.05.13-18.43.10:317][437]LogAIModule: Creating AISystem for world Tuts
+[2015.05.13-18.43.10:326][437]LogWorld: Bringing World /Game/UEDPIE_0_Tuts.Tuts up for play (max tick rate 60) at 2015.05.14-04.43.10
+[2015.05.13-18.43.10:327][437]LogWorld: Bringing up level for play took: 0.009569
+[2015.05.13-18.43.10:331][437]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tuts 0.213
+[2015.05.13-18.43.15:176][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B906D080
+[2015.05.13-18.43.27:656][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tuts" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.05.13-18.43.28:390][635]LogSavePackage: Save=526.506775ms
+[2015.05.13-18.43.28:390][635]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Tuts52A2E6DA43F834831F0CEAA2B7BD156E.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Tuts.umap'
+[2015.05.13-18.43.36:798][898]LogCascade: Quitting Cascade. FXSystem=0x00000069B906E480
+[2015.05.13-18.45.34:498][330]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.45.34:531][330]LogMaterial: 0.000178 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.45.34:613][330]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.45.34:658][330]LogMaterial: Missing cached shader map for material Dust, compiling. 
+[2015.05.13-18.45.34:693][330]LogMaterial: 0.023229 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.05.13-18.45.34:750][330]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B906E480
+[2015.05.13-18.45.52:681][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/Dust" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/Dust.uasset" SILENT=true
+[2015.05.13-18.45.52:902][330]LogSavePackage: Save=219.445969ms
+[2015.05.13-18.45.52:902][330]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/Dust0076E67E470B2956520E7DBE7F6CC4E3.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/Dust.uasset'
+[2015.05.13-18.45.52:929][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Partices/particle_cloud" FILE="../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/particle_cloud.uasset" SILENT=true
+[2015.05.13-18.45.53:019][330]LogSavePackage: Save=87.736305ms
+[2015.05.13-18.45.53:019][330]LogSavePackage: Moving '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Saved/particle_cloud9EA76C164CE7D76CC0E12985C685CA2D.tmp' to '../../../../../../Users/jbutl_000/Documents/Unreal Projects/Tuts/Content/Partices/particle_cloud.uasset'
+[2015.05.13-18.45.54:403][331]Cmd: QUIT_EDITOR
+[2015.05.13-18.45.55:053][331]LogExit: Preparing to exit.
+[2015.05.13-18.45.56:636][331]LogExit: Editor shut down
+[2015.05.13-18.45.56:640][331]LogExit: Transaction tracking system shut down
+[2015.05.13-18.45.56:645][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AAA193A0
+[2015.05.13-18.45.56:647][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069B8CBFB00
+[2015.05.13-18.45.56:649][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069A63D0AE0
+[2015.05.13-18.45.56:649][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AAA19760
+[2015.05.13-18.45.56:654][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069AB0A65C0
+[2015.05.13-18.45.56:679][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000069EF0CB560
+[2015.05.13-18.45.56:681][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006991A14CC0
+[2015.05.13-18.45.58:243][331]LogExit: Object subsystem successfully closed.
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module DistCurveEditor (180)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module Cascade (179)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.13-18.45.59:249][331]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.13-18.45.59:287][331]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.13-18.45.59:321][331]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.13-18.45.59:321][331]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.13-18.45.59:339][331]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.13-18.45.59:352][331]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.13-18.45.59:427][331]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.13-18.45.59:435][331]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.13-18.45.59:458][331]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.13-18.45.59:471][331]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.13-18.45.59:471][331]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.13-18.45.59:498][331]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.13-18.45.59:517][331]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.13-18.45.59:517][331]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.13-18.45.59:517][331]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.13-18.45.59:529][331]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.13-18.45.59:529][331]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.13-18.45.59:529][331]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.13-18.45.59:529][331]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.13-18.45.59:627][331]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.13-18.45.59:627][331]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.13-18.45.59:627][331]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.13-18.45.59:640][331]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.13-18.45.59:640][331]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.13-18.45.59:704][331]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.13-18.45.59:704][331]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.13-18.45.59:733][331]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.13-18.45.59:750][331]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.13-18.45.59:759][331]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.13-18.45.59:768][331]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.13-18.45.59:768][331]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.13-18.45.59:835][331]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.13-18.45.59:842][331]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.13-18.45.59:860][331]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.13-18.45.59:894][331]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.13-18.45.59:894][331]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.13-18.45.59:894][331]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.13-18.45.59:895][331]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.13-18.45.59:973][331]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.13-18.46.00:020][331]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.13-18.46.00:059][331]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.13-18.46.00:073][331]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.13-18.46.00:081][331]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.13-18.46.00:081][331]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.13-18.46.00:081][331]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.13-18.46.00:081][331]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.13-18.46.00:112][331]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.13-18.46.00:166][331]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.13-18.46.00:166][331]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.13-18.46.00:194][331]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.13-18.46.00:195][331]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.13-18.46.00:219][331]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.13-18.46.00:245][331]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.13-18.46.00:245][331]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.13-18.46.00:245][331]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.13-18.46.00:245][331]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.13-18.46.00:273][331]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.13-18.46.00:273][331]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.13-18.46.00:299][331]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.13-18.46.00:342][331]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.13-18.46.00:357][331]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.13-18.46.00:357][331]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.13-18.46.00:357][331]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.13-18.46.00:357][331]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.13-18.46.00:365][331]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.13-18.46.00:402][331]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.13-18.46.00:451][331]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.13-18.46.00:451][331]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.13-18.46.00:473][331]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.13-18.46.00:473][331]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.13-18.46.00:527][331]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.13-18.46.00:563][331]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.13-18.46.00:565][331]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.13-18.46.00:566][331]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.13-18.46.00:566][331]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.13-18.46.00:566][331]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.13-18.46.00:602][331]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.13-18.46.00:641][331]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.13-18.46.00:656][331]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.13-18.46.00:685][331]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.13-18.46.00:686][331]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.13-18.46.00:686][331]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.13-18.46.00:686][331]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.13-18.46.00:688][331]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.13-18.46.00:725][331]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.13-18.46.00:735][331]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.13-18.46.00:836][331]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.13-18.46.00:867][331]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.13-18.46.00:896][331]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.13-18.46.00:897][331]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.13-18.46.00:897][331]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.13-18.46.00:897][331]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.13-18.46.00:897][331]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.13-18.46.00:942][331]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.13-18.46.00:954][331]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.13-18.46.00:967][331]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.13-18.46.00:967][331]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.13-18.46.00:967][331]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.13-18.46.00:985][331]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.13-18.46.01:007][331]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.13-18.46.01:027][331]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.13-18.46.01:032][331]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.13-18.46.01:032][331]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.13-18.46.01:048][331]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.13-18.46.01:090][331]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.13-18.46.01:125][331]LogDerivedDataCache: Shutdown
+[2015.05.13-18.46.01:125][331]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.13-18.46.01:176][331]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.13-18.46.01:188][331]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.13-18.46.01:199][331]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.13-18.46.01:199][331]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.13-18.46.01:221][331]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.13-18.46.01:225][331]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.13-18.46.01:225][331]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.13-18.46.01:225][331]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.13-18.46.01:232][331]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.13-18.46.01:232][331]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.13-18.46.01:257][331]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.13-18.46.01:257][331]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.13-18.46.01:257][331]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.13-18.46.01:257][331]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.13-18.46.01:265][331]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.13-18.46.01:269][331]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.13-18.46.01:270][331]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.13-18.46.01:300][331]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.13-18.46.01:300][331]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.13-18.46.01:300][331]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.13-18.46.01:351][331]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.13-18.46.01:351][331]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.13-18.46.01:351][331]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.13-18.46.01:351][331]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.13-18.46.01:351][331]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.13-18.46.01:383][331]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.13-18.46.01:407][331]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.13-18.46.01:421][331]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.13-18.46.01:436][331]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.13-18.46.01:488][331]LogExit: Exiting.
+[2015.05.13-18.46.01:494][331]Log file closed, 05/14/15 04:46:01
